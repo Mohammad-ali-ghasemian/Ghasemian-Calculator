@@ -1,6 +1,6 @@
 ﻿namespace Qasemian_Calculator
 {
-    partial class Form1
+    partial class form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
             this.SuspendLayout();
             // 
-            // Form1
+            // form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.ClientSize = new System.Drawing.Size(414, 481);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("CourierPS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Maroon;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MaximizeBox = false;
+            this.Name = "form";
+            this.Text = "Qasemian Calculator";
+            this.TransparencyKey = System.Drawing.Color.White;
             this.ResumeLayout(false);
 
         }
