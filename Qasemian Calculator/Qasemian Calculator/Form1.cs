@@ -16,5 +16,13 @@ namespace Qasemian_Calculator
         {
             InitializeComponent();
         }
+
+        private void form_Load(object sender, EventArgs e)
+        {
+            tabControlPanel1.Style.BackColor2.Color = Color.LightSlateGray;
+            tabControlPanel1.Style.BackColor1.Color = Color.Gray;
+            tabControlPanel2.Style.BackColor1.Color = Color.LightSlateGray;
+            tabControlPanel2.Style.BackColor2.Color = Color.Gray;
+        }
     }
 }
