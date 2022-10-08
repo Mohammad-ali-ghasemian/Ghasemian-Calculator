@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
             this.tabControl = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.SuspendLayout();
@@ -43,8 +43,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.tabControlPanel2);
             this.tabControl.Controls.Add(this.tabControlPanel1);
+            this.tabControl.Controls.Add(this.tabControlPanel2);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -58,6 +58,34 @@
             this.tabControl.Tabs.Add(this.tabItem1);
             this.tabControl.Tabs.Add(this.tabItem2);
             this.tabControl.Text = "tabControl";
+            // 
+            // tabControlPanel2
+            // 
+            this.tabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel2.Location = new System.Drawing.Point(0, 33);
+            this.tabControlPanel2.Name = "tabControlPanel2";
+            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel2.Size = new System.Drawing.Size(434, 430);
+            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.Blue;
+            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel2.Style.GradientAngle = -90;
+            this.tabControlPanel2.TabIndex = 5;
+            this.tabControlPanel2.TabItem = this.tabItem2;
+            // 
+            // tabItem2
+            // 
+            this.tabItem2.AttachedControl = this.tabControlPanel2;
+            this.tabItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.tabItem2.BackColor2 = System.Drawing.Color.LightSlateGray;
+            this.tabItem2.BorderColor = System.Drawing.Color.DarkSlateBlue;
+            this.tabItem2.Name = "tabItem2";
+            this.tabItem2.Text = "pro";
+            this.tabItem2.TextColor = System.Drawing.Color.Black;
             // 
             // tabControlPanel1
             // 
@@ -81,46 +109,18 @@
             // tabItem1
             // 
             this.tabItem1.AttachedControl = this.tabControlPanel1;
-            this.tabItem1.BackColor = System.Drawing.Color.Blue;
-            this.tabItem1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tabItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.tabItem1.BackColor2 = System.Drawing.Color.LightSlateGray;
             this.tabItem1.BorderColor = System.Drawing.Color.Navy;
             this.tabItem1.Name = "tabItem1";
             this.tabItem1.Text = "simple";
             this.tabItem1.TextColor = System.Drawing.Color.Black;
             // 
-            // tabControlPanel2
-            // 
-            this.tabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel2.Location = new System.Drawing.Point(0, 33);
-            this.tabControlPanel2.Name = "tabControlPanel2";
-            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel2.Size = new System.Drawing.Size(434, 430);
-            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
-            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
-            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel2.Style.GradientAngle = 90;
-            this.tabControlPanel2.TabIndex = 5;
-            this.tabControlPanel2.TabItem = this.tabItem2;
-            // 
-            // tabItem2
-            // 
-            this.tabItem2.AttachedControl = this.tabControlPanel2;
-            this.tabItem2.BackColor = System.Drawing.Color.Blue;
-            this.tabItem2.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.tabItem2.BorderColor = System.Drawing.Color.DarkSlateBlue;
-            this.tabItem2.Name = "tabItem2";
-            this.tabItem2.Text = "pro";
-            this.tabItem2.TextColor = System.Drawing.Color.Black;
-            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.ClientSize = new System.Drawing.Size(434, 561);
             this.Controls.Add(this.tabControl);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -131,6 +131,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "form";
+            this.Opacity = 0.99D;
             this.Text = "Qasemian Calculator";
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.form_Load);
