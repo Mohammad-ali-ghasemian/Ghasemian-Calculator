@@ -24,5 +24,10 @@ namespace Qasemian_Calculator
             tabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
             tabControlPanel2.Style.BackColor1.Color = Color.White;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.TopMost = checkBox1.Checked;
+        }
     }
 }
