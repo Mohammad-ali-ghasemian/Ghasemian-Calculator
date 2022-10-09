@@ -1,4 +1,4 @@
-# Ghasemian-Calculator
+# Qasemian-Calculator
 Here is a custom windows calculator, Have fun!
 
 This calculator will meet the needs of the public general society and removes unnecessary operations for unique usages.
