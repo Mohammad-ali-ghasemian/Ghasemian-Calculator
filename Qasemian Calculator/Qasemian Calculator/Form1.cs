@@ -19,15 +19,15 @@ namespace Qasemian_Calculator
 
         private void form_Load(object sender, EventArgs e)
         {
-            tabControlPanel1.Style.BackColor2.Color = Color.White;
-            tabControlPanel1.Style.BackColor1.Color = Color.LightSlateGray;
-            tabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
-            tabControlPanel2.Style.BackColor1.Color = Color.White;
+            simpleTabControlPanel.Style.BackColor2.Color = Color.White;
+            simpleTabControlPanel.Style.BackColor1.Color = Color.LightSlateGray;
+            advancedTabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
+            advancedTabControlPanel2.Style.BackColor1.Color = Color.White;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            this.TopMost = checkBox1.Checked;
+            this.TopMost = alwaysTopChk.Checked;
         }
     }
 }
