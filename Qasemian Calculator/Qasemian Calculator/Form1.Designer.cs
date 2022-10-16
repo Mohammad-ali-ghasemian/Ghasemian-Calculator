@@ -36,6 +36,7 @@
             this.advancedTabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.alwaysTopChk = new System.Windows.Forms.CheckBox();
+            this.answerAreaBackgroundPanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.SuspendLayout();
@@ -44,8 +45,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.advancedTabControlPanel2);
             this.tabControl.Controls.Add(this.simpleTabControlPanel);
+            this.tabControl.Controls.Add(this.advancedTabControlPanel2);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -130,12 +131,21 @@
             this.alwaysTopChk.UseVisualStyleBackColor = false;
             this.alwaysTopChk.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // answerAreaBackgroundPanel
+            // 
+            this.answerAreaBackgroundPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(242)))), ((int)(((byte)(201)))));
+            this.answerAreaBackgroundPanel.Location = new System.Drawing.Point(12, 12);
+            this.answerAreaBackgroundPanel.Name = "answerAreaBackgroundPanel";
+            this.answerAreaBackgroundPanel.Size = new System.Drawing.Size(410, 80);
+            this.answerAreaBackgroundPanel.TabIndex = 13;
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(434, 561);
+            this.Controls.Add(this.answerAreaBackgroundPanel);
             this.Controls.Add(this.alwaysTopChk);
             this.Controls.Add(this.tabControl);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -165,6 +175,7 @@
         private DevComponents.DotNetBar.TabControlPanel advancedTabControlPanel2;
         private DevComponents.DotNetBar.TabItem advancedTabItem;
         private System.Windows.Forms.CheckBox alwaysTopChk;
+        private System.Windows.Forms.Panel answerAreaBackgroundPanel;
     }
 }
 
