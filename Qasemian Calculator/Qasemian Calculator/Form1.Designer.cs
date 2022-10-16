@@ -37,8 +37,11 @@
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.alwaysTopChk = new System.Windows.Forms.CheckBox();
             this.answerAreaBackgroundPanel = new System.Windows.Forms.Panel();
+            this.previousAnswerLabel = new DevComponents.DotNetBar.LabelX();
+            this.answerAreaLabel = new DevComponents.DotNetBar.LabelX();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
+            this.answerAreaBackgroundPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -134,10 +137,41 @@
             // answerAreaBackgroundPanel
             // 
             this.answerAreaBackgroundPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(242)))), ((int)(((byte)(201)))));
+            this.answerAreaBackgroundPanel.Controls.Add(this.answerAreaLabel);
+            this.answerAreaBackgroundPanel.Controls.Add(this.previousAnswerLabel);
             this.answerAreaBackgroundPanel.Location = new System.Drawing.Point(12, 12);
             this.answerAreaBackgroundPanel.Name = "answerAreaBackgroundPanel";
             this.answerAreaBackgroundPanel.Size = new System.Drawing.Size(410, 80);
             this.answerAreaBackgroundPanel.TabIndex = 13;
+            // 
+            // previousAnswerLabel
+            // 
+            this.previousAnswerLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            // 
+            // 
+            // 
+            this.previousAnswerLabel.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.previousAnswerLabel.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.previousAnswerLabel.Location = new System.Drawing.Point(3, 4);
+            this.previousAnswerLabel.Name = "previousAnswerLabel";
+            this.previousAnswerLabel.SingleLineColor = System.Drawing.Color.Black;
+            this.previousAnswerLabel.Size = new System.Drawing.Size(404, 23);
+            this.previousAnswerLabel.TabIndex = 0;
+            // 
+            // answerAreaLabel
+            // 
+            this.answerAreaLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            // 
+            // 
+            // 
+            this.answerAreaLabel.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.answerAreaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.answerAreaLabel.ForeColor = System.Drawing.Color.Black;
+            this.answerAreaLabel.Location = new System.Drawing.Point(3, 29);
+            this.answerAreaLabel.Name = "answerAreaLabel";
+            this.answerAreaLabel.SingleLineColor = System.Drawing.Color.Black;
+            this.answerAreaLabel.Size = new System.Drawing.Size(404, 48);
+            this.answerAreaLabel.TabIndex = 1;
             // 
             // form
             // 
@@ -162,6 +196,7 @@
             this.Load += new System.EventHandler(this.form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).EndInit();
             this.tabControl.ResumeLayout(false);
+            this.answerAreaBackgroundPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,6 +211,8 @@
         private DevComponents.DotNetBar.TabItem advancedTabItem;
         private System.Windows.Forms.CheckBox alwaysTopChk;
         private System.Windows.Forms.Panel answerAreaBackgroundPanel;
+        private DevComponents.DotNetBar.LabelX answerAreaLabel;
+        private DevComponents.DotNetBar.LabelX previousAnswerLabel;
     }
 }
 
