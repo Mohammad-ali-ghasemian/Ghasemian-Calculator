@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Button button1;
-            System.Windows.Forms.Button button2;
-            System.Windows.Forms.Button button3;
-            System.Windows.Forms.Button button4;
-            System.Windows.Forms.Button button5;
-            System.Windows.Forms.Button button6;
-            System.Windows.Forms.Button button7;
-            System.Windows.Forms.Button button8;
-            System.Windows.Forms.Button button9;
-            System.Windows.Forms.Button button10;
-            System.Windows.Forms.Button button11;
-            System.Windows.Forms.Button button12;
-            System.Windows.Forms.Button button13;
-            System.Windows.Forms.Button button14;
-            System.Windows.Forms.Button button15;
-            System.Windows.Forms.Button button16;
-            System.Windows.Forms.Button button17;
-            System.Windows.Forms.Button button18;
-            System.Windows.Forms.Button button19;
-            System.Windows.Forms.Button button20;
-            System.Windows.Forms.Button button21;
-            System.Windows.Forms.Button button22;
-            System.Windows.Forms.Button button23;
-            System.Windows.Forms.Button button24;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
+            this.delBtn = new System.Windows.Forms.Button();
+            this.CEBtn = new System.Windows.Forms.Button();
+            this.CBtn = new System.Windows.Forms.Button();
+            this.parenthesisBtn = new System.Windows.Forms.Button();
+            this.x2Btn = new System.Windows.Forms.Button();
+            this.radicalBtn = new System.Windows.Forms.Button();
+            this.logBtn = new System.Windows.Forms.Button();
+            this.lnBtn = new System.Windows.Forms.Button();
+            this.divideBtn = new System.Windows.Forms.Button();
+            this.sevenBtn = new System.Windows.Forms.Button();
+            this.eightBtn = new System.Windows.Forms.Button();
+            this.nineBtn = new System.Windows.Forms.Button();
+            this.timesBtn = new System.Windows.Forms.Button();
+            this.fourBtn = new System.Windows.Forms.Button();
+            this.fiveBtn = new System.Windows.Forms.Button();
+            this.sixBtn = new System.Windows.Forms.Button();
+            this.minusBtn = new System.Windows.Forms.Button();
+            this.oneBtn = new System.Windows.Forms.Button();
+            this.twoBtn = new System.Windows.Forms.Button();
+            this.threeBtn = new System.Windows.Forms.Button();
+            this.plusBtn = new System.Windows.Forms.Button();
+            this.zeroBtn = new System.Windows.Forms.Button();
+            this.dotBtn = new System.Windows.Forms.Button();
+            this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
@@ -64,371 +64,348 @@
             this.answerAreaLabel = new DevComponents.DotNetBar.LabelX();
             this.previousAnswerLabel = new DevComponents.DotNetBar.LabelX();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
-            button3 = new System.Windows.Forms.Button();
-            button4 = new System.Windows.Forms.Button();
-            button5 = new System.Windows.Forms.Button();
-            button6 = new System.Windows.Forms.Button();
-            button7 = new System.Windows.Forms.Button();
-            button8 = new System.Windows.Forms.Button();
-            button9 = new System.Windows.Forms.Button();
-            button10 = new System.Windows.Forms.Button();
-            button11 = new System.Windows.Forms.Button();
-            button12 = new System.Windows.Forms.Button();
-            button13 = new System.Windows.Forms.Button();
-            button14 = new System.Windows.Forms.Button();
-            button15 = new System.Windows.Forms.Button();
-            button16 = new System.Windows.Forms.Button();
-            button17 = new System.Windows.Forms.Button();
-            button18 = new System.Windows.Forms.Button();
-            button19 = new System.Windows.Forms.Button();
-            button20 = new System.Windows.Forms.Button();
-            button21 = new System.Windows.Forms.Button();
-            button22 = new System.Windows.Forms.Button();
-            button23 = new System.Windows.Forms.Button();
-            button24 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.simpleTabControlPanel.SuspendLayout();
             this.answerAreaBackgroundPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // delBtn
             // 
-            button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button1.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button1.ForeColor = System.Drawing.Color.White;
-            button1.Location = new System.Drawing.Point(342, 9);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(80, 54);
-            button1.TabIndex = 0;
-            button1.Text = "⌫";
-            button1.UseVisualStyleBackColor = false;
+            this.delBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.delBtn.FlatAppearance.BorderSize = 0;
+            this.delBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.delBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.delBtn.ForeColor = System.Drawing.Color.White;
+            this.delBtn.Location = new System.Drawing.Point(342, 9);
+            this.delBtn.Name = "delBtn";
+            this.delBtn.Size = new System.Drawing.Size(80, 54);
+            this.delBtn.TabIndex = 0;
+            this.delBtn.Text = "⌫";
+            this.delBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // CEBtn
             // 
-            button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button2.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button2.ForeColor = System.Drawing.Color.White;
-            button2.Location = new System.Drawing.Point(231, 9);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(80, 54);
-            button2.TabIndex = 5;
-            button2.Text = "⌫";
-            button2.UseVisualStyleBackColor = false;
+            this.CEBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.CEBtn.FlatAppearance.BorderSize = 0;
+            this.CEBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CEBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.CEBtn.ForeColor = System.Drawing.Color.White;
+            this.CEBtn.Location = new System.Drawing.Point(231, 9);
+            this.CEBtn.Name = "CEBtn";
+            this.CEBtn.Size = new System.Drawing.Size(80, 54);
+            this.CEBtn.TabIndex = 5;
+            this.CEBtn.Text = "CE";
+            this.CEBtn.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // CBtn
             // 
-            button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button3.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button3.ForeColor = System.Drawing.Color.White;
-            button3.Location = new System.Drawing.Point(121, 9);
-            button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(80, 54);
-            button3.TabIndex = 6;
-            button3.Text = "⌫";
-            button3.UseVisualStyleBackColor = false;
+            this.CBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.CBtn.FlatAppearance.BorderSize = 0;
+            this.CBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.CBtn.ForeColor = System.Drawing.Color.White;
+            this.CBtn.Location = new System.Drawing.Point(121, 9);
+            this.CBtn.Name = "CBtn";
+            this.CBtn.Size = new System.Drawing.Size(80, 54);
+            this.CBtn.TabIndex = 6;
+            this.CBtn.Text = "C";
+            this.CBtn.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // parenthesisBtn
             // 
-            button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button4.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button4.ForeColor = System.Drawing.Color.White;
-            button4.Location = new System.Drawing.Point(12, 9);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(80, 54);
-            button4.TabIndex = 7;
-            button4.Text = "⌫";
-            button4.UseVisualStyleBackColor = false;
+            this.parenthesisBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.parenthesisBtn.FlatAppearance.BorderSize = 0;
+            this.parenthesisBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.parenthesisBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.parenthesisBtn.ForeColor = System.Drawing.Color.White;
+            this.parenthesisBtn.Location = new System.Drawing.Point(12, 9);
+            this.parenthesisBtn.Name = "parenthesisBtn";
+            this.parenthesisBtn.Size = new System.Drawing.Size(80, 54);
+            this.parenthesisBtn.TabIndex = 7;
+            this.parenthesisBtn.Text = "( )";
+            this.parenthesisBtn.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // x2Btn
             // 
-            button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button5.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button5.ForeColor = System.Drawing.Color.White;
-            button5.Location = new System.Drawing.Point(12, 78);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(80, 54);
-            button5.TabIndex = 11;
-            button5.Text = "⌫";
-            button5.UseVisualStyleBackColor = false;
+            this.x2Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.x2Btn.FlatAppearance.BorderSize = 0;
+            this.x2Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x2Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.x2Btn.ForeColor = System.Drawing.Color.White;
+            this.x2Btn.Location = new System.Drawing.Point(12, 78);
+            this.x2Btn.Name = "x2Btn";
+            this.x2Btn.Size = new System.Drawing.Size(80, 54);
+            this.x2Btn.TabIndex = 11;
+            this.x2Btn.Text = "x";
+            this.x2Btn.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // radicalBtn
             // 
-            button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button6.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button6.ForeColor = System.Drawing.Color.White;
-            button6.Location = new System.Drawing.Point(121, 78);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(80, 54);
-            button6.TabIndex = 10;
-            button6.Text = "⌫";
-            button6.UseVisualStyleBackColor = false;
+            this.radicalBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.radicalBtn.FlatAppearance.BorderSize = 0;
+            this.radicalBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radicalBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.radicalBtn.ForeColor = System.Drawing.Color.White;
+            this.radicalBtn.Location = new System.Drawing.Point(121, 78);
+            this.radicalBtn.Name = "radicalBtn";
+            this.radicalBtn.Size = new System.Drawing.Size(80, 54);
+            this.radicalBtn.TabIndex = 10;
+            this.radicalBtn.Text = "√x";
+            this.radicalBtn.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // logBtn
             // 
-            button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button7.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button7.ForeColor = System.Drawing.Color.White;
-            button7.Location = new System.Drawing.Point(231, 78);
-            button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(80, 54);
-            button7.TabIndex = 9;
-            button7.Text = "⌫";
-            button7.UseVisualStyleBackColor = false;
+            this.logBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.logBtn.FlatAppearance.BorderSize = 0;
+            this.logBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.logBtn.ForeColor = System.Drawing.Color.White;
+            this.logBtn.Location = new System.Drawing.Point(231, 78);
+            this.logBtn.Name = "logBtn";
+            this.logBtn.Size = new System.Drawing.Size(80, 54);
+            this.logBtn.TabIndex = 9;
+            this.logBtn.Text = "log";
+            this.logBtn.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // lnBtn
             // 
-            button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button8.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button8.ForeColor = System.Drawing.Color.White;
-            button8.Location = new System.Drawing.Point(342, 78);
-            button8.Name = "button8";
-            button8.Size = new System.Drawing.Size(80, 54);
-            button8.TabIndex = 8;
-            button8.Text = "⌫";
-            button8.UseVisualStyleBackColor = false;
+            this.lnBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.lnBtn.FlatAppearance.BorderSize = 0;
+            this.lnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lnBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.lnBtn.ForeColor = System.Drawing.Color.White;
+            this.lnBtn.Location = new System.Drawing.Point(342, 78);
+            this.lnBtn.Name = "lnBtn";
+            this.lnBtn.Size = new System.Drawing.Size(80, 54);
+            this.lnBtn.TabIndex = 8;
+            this.lnBtn.Text = "ln";
+            this.lnBtn.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // divideBtn
             // 
-            button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button9.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button9.ForeColor = System.Drawing.Color.White;
-            button9.Location = new System.Drawing.Point(12, 150);
-            button9.Name = "button9";
-            button9.Size = new System.Drawing.Size(80, 54);
-            button9.TabIndex = 15;
-            button9.Text = "⌫";
-            button9.UseVisualStyleBackColor = false;
+            this.divideBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.divideBtn.FlatAppearance.BorderSize = 0;
+            this.divideBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.divideBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.divideBtn.ForeColor = System.Drawing.Color.White;
+            this.divideBtn.Location = new System.Drawing.Point(12, 150);
+            this.divideBtn.Name = "divideBtn";
+            this.divideBtn.Size = new System.Drawing.Size(80, 54);
+            this.divideBtn.TabIndex = 15;
+            this.divideBtn.Text = "÷";
+            this.divideBtn.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // sevenBtn
             // 
-            button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button10.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button10.ForeColor = System.Drawing.Color.White;
-            button10.Location = new System.Drawing.Point(121, 150);
-            button10.Name = "button10";
-            button10.Size = new System.Drawing.Size(80, 54);
-            button10.TabIndex = 14;
-            button10.Text = "⌫";
-            button10.UseVisualStyleBackColor = false;
+            this.sevenBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.sevenBtn.FlatAppearance.BorderSize = 0;
+            this.sevenBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sevenBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.sevenBtn.ForeColor = System.Drawing.Color.White;
+            this.sevenBtn.Location = new System.Drawing.Point(121, 150);
+            this.sevenBtn.Name = "sevenBtn";
+            this.sevenBtn.Size = new System.Drawing.Size(80, 54);
+            this.sevenBtn.TabIndex = 14;
+            this.sevenBtn.Text = "7";
+            this.sevenBtn.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // eightBtn
             // 
-            button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button11.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button11.ForeColor = System.Drawing.Color.White;
-            button11.Location = new System.Drawing.Point(231, 150);
-            button11.Name = "button11";
-            button11.Size = new System.Drawing.Size(80, 54);
-            button11.TabIndex = 13;
-            button11.Text = "⌫";
-            button11.UseVisualStyleBackColor = false;
+            this.eightBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.eightBtn.FlatAppearance.BorderSize = 0;
+            this.eightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eightBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.eightBtn.ForeColor = System.Drawing.Color.White;
+            this.eightBtn.Location = new System.Drawing.Point(231, 150);
+            this.eightBtn.Name = "eightBtn";
+            this.eightBtn.Size = new System.Drawing.Size(80, 54);
+            this.eightBtn.TabIndex = 13;
+            this.eightBtn.Text = "8";
+            this.eightBtn.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // nineBtn
             // 
-            button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button12.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button12.ForeColor = System.Drawing.Color.White;
-            button12.Location = new System.Drawing.Point(342, 150);
-            button12.Name = "button12";
-            button12.Size = new System.Drawing.Size(80, 54);
-            button12.TabIndex = 12;
-            button12.Text = "⌫";
-            button12.UseVisualStyleBackColor = false;
+            this.nineBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.nineBtn.FlatAppearance.BorderSize = 0;
+            this.nineBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nineBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.nineBtn.ForeColor = System.Drawing.Color.White;
+            this.nineBtn.Location = new System.Drawing.Point(342, 150);
+            this.nineBtn.Name = "nineBtn";
+            this.nineBtn.Size = new System.Drawing.Size(80, 54);
+            this.nineBtn.TabIndex = 12;
+            this.nineBtn.Text = "9";
+            this.nineBtn.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // timesBtn
             // 
-            button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button13.FlatAppearance.BorderSize = 0;
-            button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button13.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button13.ForeColor = System.Drawing.Color.White;
-            button13.Location = new System.Drawing.Point(12, 222);
-            button13.Name = "button13";
-            button13.Size = new System.Drawing.Size(80, 54);
-            button13.TabIndex = 19;
-            button13.Text = "⌫";
-            button13.UseVisualStyleBackColor = false;
+            this.timesBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.timesBtn.FlatAppearance.BorderSize = 0;
+            this.timesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.timesBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.timesBtn.ForeColor = System.Drawing.Color.White;
+            this.timesBtn.Location = new System.Drawing.Point(12, 222);
+            this.timesBtn.Name = "timesBtn";
+            this.timesBtn.Size = new System.Drawing.Size(80, 54);
+            this.timesBtn.TabIndex = 19;
+            this.timesBtn.Text = "×";
+            this.timesBtn.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // fourBtn
             // 
-            button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button14.FlatAppearance.BorderSize = 0;
-            button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button14.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button14.ForeColor = System.Drawing.Color.White;
-            button14.Location = new System.Drawing.Point(121, 222);
-            button14.Name = "button14";
-            button14.Size = new System.Drawing.Size(80, 54);
-            button14.TabIndex = 18;
-            button14.Text = "⌫";
-            button14.UseVisualStyleBackColor = false;
+            this.fourBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.fourBtn.FlatAppearance.BorderSize = 0;
+            this.fourBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fourBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.fourBtn.ForeColor = System.Drawing.Color.White;
+            this.fourBtn.Location = new System.Drawing.Point(121, 222);
+            this.fourBtn.Name = "fourBtn";
+            this.fourBtn.Size = new System.Drawing.Size(80, 54);
+            this.fourBtn.TabIndex = 18;
+            this.fourBtn.Text = "4";
+            this.fourBtn.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // fiveBtn
             // 
-            button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button15.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button15.ForeColor = System.Drawing.Color.White;
-            button15.Location = new System.Drawing.Point(231, 222);
-            button15.Name = "button15";
-            button15.Size = new System.Drawing.Size(80, 54);
-            button15.TabIndex = 17;
-            button15.Text = "⌫";
-            button15.UseVisualStyleBackColor = false;
+            this.fiveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.fiveBtn.FlatAppearance.BorderSize = 0;
+            this.fiveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fiveBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.fiveBtn.ForeColor = System.Drawing.Color.White;
+            this.fiveBtn.Location = new System.Drawing.Point(231, 222);
+            this.fiveBtn.Name = "fiveBtn";
+            this.fiveBtn.Size = new System.Drawing.Size(80, 54);
+            this.fiveBtn.TabIndex = 17;
+            this.fiveBtn.Text = "5";
+            this.fiveBtn.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // sixBtn
             // 
-            button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button16.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button16.ForeColor = System.Drawing.Color.White;
-            button16.Location = new System.Drawing.Point(342, 222);
-            button16.Name = "button16";
-            button16.Size = new System.Drawing.Size(80, 54);
-            button16.TabIndex = 16;
-            button16.Text = "⌫";
-            button16.UseVisualStyleBackColor = false;
+            this.sixBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.sixBtn.FlatAppearance.BorderSize = 0;
+            this.sixBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sixBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.sixBtn.ForeColor = System.Drawing.Color.White;
+            this.sixBtn.Location = new System.Drawing.Point(342, 222);
+            this.sixBtn.Name = "sixBtn";
+            this.sixBtn.Size = new System.Drawing.Size(80, 54);
+            this.sixBtn.TabIndex = 16;
+            this.sixBtn.Text = "6";
+            this.sixBtn.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // minusBtn
             // 
-            button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button17.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button17.ForeColor = System.Drawing.Color.White;
-            button17.Location = new System.Drawing.Point(12, 292);
-            button17.Name = "button17";
-            button17.Size = new System.Drawing.Size(80, 54);
-            button17.TabIndex = 23;
-            button17.Text = "⌫";
-            button17.UseVisualStyleBackColor = false;
+            this.minusBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.minusBtn.FlatAppearance.BorderSize = 0;
+            this.minusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.minusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.minusBtn.ForeColor = System.Drawing.Color.White;
+            this.minusBtn.Location = new System.Drawing.Point(12, 292);
+            this.minusBtn.Name = "minusBtn";
+            this.minusBtn.Size = new System.Drawing.Size(80, 54);
+            this.minusBtn.TabIndex = 23;
+            this.minusBtn.Text = "-";
+            this.minusBtn.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // oneBtn
             // 
-            button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button18.FlatAppearance.BorderSize = 0;
-            button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button18.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button18.ForeColor = System.Drawing.Color.White;
-            button18.Location = new System.Drawing.Point(121, 292);
-            button18.Name = "button18";
-            button18.Size = new System.Drawing.Size(80, 54);
-            button18.TabIndex = 22;
-            button18.Text = "⌫";
-            button18.UseVisualStyleBackColor = false;
+            this.oneBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.oneBtn.FlatAppearance.BorderSize = 0;
+            this.oneBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.oneBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.oneBtn.ForeColor = System.Drawing.Color.White;
+            this.oneBtn.Location = new System.Drawing.Point(121, 292);
+            this.oneBtn.Name = "oneBtn";
+            this.oneBtn.Size = new System.Drawing.Size(80, 54);
+            this.oneBtn.TabIndex = 22;
+            this.oneBtn.Text = "1";
+            this.oneBtn.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // twoBtn
             // 
-            button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button19.FlatAppearance.BorderSize = 0;
-            button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button19.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button19.ForeColor = System.Drawing.Color.White;
-            button19.Location = new System.Drawing.Point(231, 292);
-            button19.Name = "button19";
-            button19.Size = new System.Drawing.Size(80, 54);
-            button19.TabIndex = 21;
-            button19.Text = "⌫";
-            button19.UseVisualStyleBackColor = false;
+            this.twoBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.twoBtn.FlatAppearance.BorderSize = 0;
+            this.twoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twoBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.twoBtn.ForeColor = System.Drawing.Color.White;
+            this.twoBtn.Location = new System.Drawing.Point(231, 292);
+            this.twoBtn.Name = "twoBtn";
+            this.twoBtn.Size = new System.Drawing.Size(80, 54);
+            this.twoBtn.TabIndex = 21;
+            this.twoBtn.Text = "2";
+            this.twoBtn.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // threeBtn
             // 
-            button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button20.FlatAppearance.BorderSize = 0;
-            button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button20.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button20.ForeColor = System.Drawing.Color.White;
-            button20.Location = new System.Drawing.Point(342, 292);
-            button20.Name = "button20";
-            button20.Size = new System.Drawing.Size(80, 54);
-            button20.TabIndex = 20;
-            button20.Text = "⌫";
-            button20.UseVisualStyleBackColor = false;
+            this.threeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.threeBtn.FlatAppearance.BorderSize = 0;
+            this.threeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.threeBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.threeBtn.ForeColor = System.Drawing.Color.White;
+            this.threeBtn.Location = new System.Drawing.Point(342, 292);
+            this.threeBtn.Name = "threeBtn";
+            this.threeBtn.Size = new System.Drawing.Size(80, 54);
+            this.threeBtn.TabIndex = 20;
+            this.threeBtn.Text = "3";
+            this.threeBtn.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // plusBtn
             // 
-            button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button21.FlatAppearance.BorderSize = 0;
-            button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button21.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button21.ForeColor = System.Drawing.Color.White;
-            button21.Location = new System.Drawing.Point(12, 363);
-            button21.Name = "button21";
-            button21.Size = new System.Drawing.Size(80, 54);
-            button21.TabIndex = 27;
-            button21.Text = "⌫";
-            button21.UseVisualStyleBackColor = false;
+            this.plusBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.plusBtn.FlatAppearance.BorderSize = 0;
+            this.plusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.plusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.plusBtn.ForeColor = System.Drawing.Color.White;
+            this.plusBtn.Location = new System.Drawing.Point(12, 363);
+            this.plusBtn.Name = "plusBtn";
+            this.plusBtn.Size = new System.Drawing.Size(80, 54);
+            this.plusBtn.TabIndex = 27;
+            this.plusBtn.Text = "+";
+            this.plusBtn.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // zeroBtn
             // 
-            button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button22.FlatAppearance.BorderSize = 0;
-            button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button22.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button22.ForeColor = System.Drawing.Color.White;
-            button22.Location = new System.Drawing.Point(121, 363);
-            button22.Name = "button22";
-            button22.Size = new System.Drawing.Size(80, 54);
-            button22.TabIndex = 26;
-            button22.Text = "⌫";
-            button22.UseVisualStyleBackColor = false;
+            this.zeroBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.zeroBtn.FlatAppearance.BorderSize = 0;
+            this.zeroBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zeroBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.zeroBtn.ForeColor = System.Drawing.Color.White;
+            this.zeroBtn.Location = new System.Drawing.Point(121, 363);
+            this.zeroBtn.Name = "zeroBtn";
+            this.zeroBtn.Size = new System.Drawing.Size(80, 54);
+            this.zeroBtn.TabIndex = 26;
+            this.zeroBtn.Text = "0";
+            this.zeroBtn.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // dotBtn
             // 
-            button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button23.FlatAppearance.BorderSize = 0;
-            button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button23.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button23.ForeColor = System.Drawing.Color.White;
-            button23.Location = new System.Drawing.Point(231, 363);
-            button23.Name = "button23";
-            button23.Size = new System.Drawing.Size(80, 54);
-            button23.TabIndex = 25;
-            button23.Text = "⌫";
-            button23.UseVisualStyleBackColor = false;
+            this.dotBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.dotBtn.FlatAppearance.BorderSize = 0;
+            this.dotBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dotBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.dotBtn.ForeColor = System.Drawing.Color.White;
+            this.dotBtn.Location = new System.Drawing.Point(231, 363);
+            this.dotBtn.Name = "dotBtn";
+            this.dotBtn.Size = new System.Drawing.Size(80, 54);
+            this.dotBtn.TabIndex = 25;
+            this.dotBtn.Text = ".";
+            this.dotBtn.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // equallBtn
             // 
-            button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            button24.FlatAppearance.BorderSize = 0;
-            button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button24.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            button24.ForeColor = System.Drawing.Color.White;
-            button24.Location = new System.Drawing.Point(342, 363);
-            button24.Name = "button24";
-            button24.Size = new System.Drawing.Size(80, 54);
-            button24.TabIndex = 24;
-            button24.Text = "⌫";
-            button24.UseVisualStyleBackColor = false;
+            this.equallBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.equallBtn.FlatAppearance.BorderSize = 0;
+            this.equallBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.equallBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.equallBtn.ForeColor = System.Drawing.Color.White;
+            this.equallBtn.Location = new System.Drawing.Point(342, 363);
+            this.equallBtn.Name = "equallBtn";
+            this.equallBtn.Size = new System.Drawing.Size(80, 54);
+            this.equallBtn.TabIndex = 24;
+            this.equallBtn.Text = "=";
+            this.equallBtn.UseVisualStyleBackColor = false;
             // 
             // tabControl
             // 
@@ -452,30 +429,31 @@
             // 
             // simpleTabControlPanel
             // 
-            this.simpleTabControlPanel.Controls.Add(button21);
-            this.simpleTabControlPanel.Controls.Add(button22);
-            this.simpleTabControlPanel.Controls.Add(button23);
-            this.simpleTabControlPanel.Controls.Add(button24);
-            this.simpleTabControlPanel.Controls.Add(button17);
-            this.simpleTabControlPanel.Controls.Add(button18);
-            this.simpleTabControlPanel.Controls.Add(button19);
-            this.simpleTabControlPanel.Controls.Add(button20);
-            this.simpleTabControlPanel.Controls.Add(button13);
-            this.simpleTabControlPanel.Controls.Add(button14);
-            this.simpleTabControlPanel.Controls.Add(button15);
-            this.simpleTabControlPanel.Controls.Add(button16);
-            this.simpleTabControlPanel.Controls.Add(button9);
-            this.simpleTabControlPanel.Controls.Add(button10);
-            this.simpleTabControlPanel.Controls.Add(button11);
-            this.simpleTabControlPanel.Controls.Add(button12);
-            this.simpleTabControlPanel.Controls.Add(button5);
-            this.simpleTabControlPanel.Controls.Add(button6);
-            this.simpleTabControlPanel.Controls.Add(button7);
-            this.simpleTabControlPanel.Controls.Add(button8);
-            this.simpleTabControlPanel.Controls.Add(button4);
-            this.simpleTabControlPanel.Controls.Add(button3);
-            this.simpleTabControlPanel.Controls.Add(button2);
-            this.simpleTabControlPanel.Controls.Add(button1);
+            this.simpleTabControlPanel.Controls.Add(this.label1);
+            this.simpleTabControlPanel.Controls.Add(this.plusBtn);
+            this.simpleTabControlPanel.Controls.Add(this.zeroBtn);
+            this.simpleTabControlPanel.Controls.Add(this.dotBtn);
+            this.simpleTabControlPanel.Controls.Add(this.equallBtn);
+            this.simpleTabControlPanel.Controls.Add(this.minusBtn);
+            this.simpleTabControlPanel.Controls.Add(this.oneBtn);
+            this.simpleTabControlPanel.Controls.Add(this.twoBtn);
+            this.simpleTabControlPanel.Controls.Add(this.threeBtn);
+            this.simpleTabControlPanel.Controls.Add(this.timesBtn);
+            this.simpleTabControlPanel.Controls.Add(this.fourBtn);
+            this.simpleTabControlPanel.Controls.Add(this.fiveBtn);
+            this.simpleTabControlPanel.Controls.Add(this.sixBtn);
+            this.simpleTabControlPanel.Controls.Add(this.divideBtn);
+            this.simpleTabControlPanel.Controls.Add(this.sevenBtn);
+            this.simpleTabControlPanel.Controls.Add(this.eightBtn);
+            this.simpleTabControlPanel.Controls.Add(this.nineBtn);
+            this.simpleTabControlPanel.Controls.Add(this.x2Btn);
+            this.simpleTabControlPanel.Controls.Add(this.radicalBtn);
+            this.simpleTabControlPanel.Controls.Add(this.logBtn);
+            this.simpleTabControlPanel.Controls.Add(this.lnBtn);
+            this.simpleTabControlPanel.Controls.Add(this.parenthesisBtn);
+            this.simpleTabControlPanel.Controls.Add(this.CBtn);
+            this.simpleTabControlPanel.Controls.Add(this.CEBtn);
+            this.simpleTabControlPanel.Controls.Add(this.delBtn);
             this.simpleTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
             this.simpleTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.simpleTabControlPanel.Location = new System.Drawing.Point(0, 33);
@@ -604,6 +582,17 @@
             // 
             this.galleryContainer2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(56, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "2";
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -626,6 +615,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).EndInit();
             this.tabControl.ResumeLayout(false);
             this.simpleTabControlPanel.ResumeLayout(false);
+            this.simpleTabControlPanel.PerformLayout();
             this.answerAreaBackgroundPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -644,6 +634,31 @@
         private DevComponents.DotNetBar.LabelX answerAreaLabel;
         private DevComponents.DotNetBar.LabelX previousAnswerLabel;
         private DevComponents.DotNetBar.GalleryContainer galleryContainer2;
+        private System.Windows.Forms.Button delBtn;
+        private System.Windows.Forms.Button CEBtn;
+        private System.Windows.Forms.Button CBtn;
+        private System.Windows.Forms.Button parenthesisBtn;
+        private System.Windows.Forms.Button x2Btn;
+        private System.Windows.Forms.Button radicalBtn;
+        private System.Windows.Forms.Button logBtn;
+        private System.Windows.Forms.Button lnBtn;
+        private System.Windows.Forms.Button divideBtn;
+        private System.Windows.Forms.Button sevenBtn;
+        private System.Windows.Forms.Button eightBtn;
+        private System.Windows.Forms.Button nineBtn;
+        private System.Windows.Forms.Button timesBtn;
+        private System.Windows.Forms.Button fourBtn;
+        private System.Windows.Forms.Button fiveBtn;
+        private System.Windows.Forms.Button sixBtn;
+        private System.Windows.Forms.Button minusBtn;
+        private System.Windows.Forms.Button oneBtn;
+        private System.Windows.Forms.Button twoBtn;
+        private System.Windows.Forms.Button threeBtn;
+        private System.Windows.Forms.Button plusBtn;
+        private System.Windows.Forms.Button zeroBtn;
+        private System.Windows.Forms.Button dotBtn;
+        private System.Windows.Forms.Button equallBtn;
+        private System.Windows.Forms.Label label1;
     }
 }
 
