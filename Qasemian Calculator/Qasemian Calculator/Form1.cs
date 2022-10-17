@@ -24,6 +24,7 @@ namespace Qasemian_Calculator
                 int nWidthEllipse,
                 int nHeightEllipse
             );
+        
         public form()
         {
             InitializeComponent();
