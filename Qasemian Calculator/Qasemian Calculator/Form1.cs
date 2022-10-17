@@ -37,6 +37,17 @@ namespace Qasemian_Calculator
             advancedTabControlPanel2.Style.BackColor1.Color = Color.White;
             answerAreaBackgroundPanel.BackColor = Color.FromArgb(240, 255, 242, 201);
 
+            Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
+            zeroBtn.BackColor = numbersColor;
+            oneBtn.BackColor = numbersColor;
+            twoBtn.BackColor = numbersColor;
+            threeBtn.BackColor = numbersColor;
+            fourBtn.BackColor = numbersColor;
+            fiveBtn.BackColor = numbersColor;
+            sixBtn.BackColor = numbersColor;
+            sevenBtn.BackColor = numbersColor;
+            eightBtn.BackColor = numbersColor;
+            nineBtn.BackColor = numbersColor;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
