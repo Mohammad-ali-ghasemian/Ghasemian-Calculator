@@ -14,6 +14,16 @@ namespace Qasemian_Calculator
 {
     public partial class form : Form
     {
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+            (
+                int nLeft,
+                int nTop,
+                int nRight,
+                int nButtom,
+                int nWidthEllipse,
+                int nHeightEllipse
+            );
         public form()
         {
             InitializeComponent();
@@ -26,7 +36,6 @@ namespace Qasemian_Calculator
             advancedTabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
             advancedTabControlPanel2.Style.BackColor1.Color = Color.White;
             answerAreaBackgroundPanel.BackColor = Color.FromArgb(240, 255, 242, 201);
-
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
