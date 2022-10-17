@@ -110,6 +110,7 @@
             this.CBtn.Name = "CBtn";
             this.CBtn.Size = new System.Drawing.Size(95, 67);
             this.CBtn.TabIndex = 6;
+            this.CBtn.Tag = "";
             this.CBtn.Text = "C";
             this.CBtn.UseVisualStyleBackColor = false;
             // 
@@ -124,6 +125,7 @@
             this.parenthesisBtn.Name = "parenthesisBtn";
             this.parenthesisBtn.Size = new System.Drawing.Size(95, 67);
             this.parenthesisBtn.TabIndex = 7;
+            this.parenthesisBtn.Tag = "";
             this.parenthesisBtn.Text = "( )";
             this.parenthesisBtn.UseVisualStyleBackColor = false;
             // 
@@ -587,7 +589,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(56, 89);
+            this.label1.Location = new System.Drawing.Point(63, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 28;

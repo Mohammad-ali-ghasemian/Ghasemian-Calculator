@@ -48,11 +48,38 @@ namespace Qasemian_Calculator
             sevenBtn.BackColor = numbersColor;
             eightBtn.BackColor = numbersColor;
             nineBtn.BackColor = numbersColor;
+
+            Region reg = Region.FromHrgn(CreateRoundRectRgn(0, 0, 95, 67, 30, 30));
+            delBtn.Region = reg;
+            CBtn.Region = reg;
+            CEBtn.Region = reg;
+            parenthesisBtn.Region = reg;
+            lnBtn.Region = reg;
+            logBtn.Region = reg;
+            radicalBtn.Region = reg;
+            x2Btn.Region = reg;
+            nineBtn.Region = reg;
+            eightBtn.Region = reg;
+            sevenBtn.Region = reg;
+            divideBtn.Region = reg;
+            sixBtn.Region = reg;
+            fiveBtn.Region = reg;
+            fourBtn.Region = reg;
+            timesBtn.Region = reg;
+            threeBtn.Region = reg;
+            twoBtn.Region = reg;
+            oneBtn.Region = reg;
+            minusBtn.Region = reg;
+            equallBtn.Region = reg;
+            dotBtn.Region = reg;
+            zeroBtn.Region = reg;
+            plusBtn.Region = reg;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             this.TopMost = alwaysTopChk.Checked;
         }
+        
     }
 }
