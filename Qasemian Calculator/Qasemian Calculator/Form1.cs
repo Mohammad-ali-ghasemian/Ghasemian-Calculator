@@ -24,7 +24,17 @@ namespace Qasemian_Calculator
                 int nWidthEllipse,
                 int nHeightEllipse
             );
-        
+
+        private const int CS_DropShadow = 0x00000001;
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ClassStyle |= CS_DropShadow;
+                return cp;
+            }
+        }
         public form()
         {
             InitializeComponent();
@@ -75,6 +85,8 @@ namespace Qasemian_Calculator
             dotBtn.Region = reg;
             zeroBtn.Region = reg;
             plusBtn.Region = reg;
+
+
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

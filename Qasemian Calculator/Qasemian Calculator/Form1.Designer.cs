@@ -56,6 +56,7 @@
             this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.advancedTabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
@@ -64,7 +65,6 @@
             this.answerAreaLabel = new DevComponents.DotNetBar.LabelX();
             this.previousAnswerLabel = new DevComponents.DotNetBar.LabelX();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.simpleTabControlPanel.SuspendLayout();
@@ -521,6 +521,17 @@
             this.simpleTabControlPanel.TabItem = this.simpleTabItem;
             this.simpleTabControlPanel.UseCustomStyle = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(63, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "2";
+            // 
             // simpleTabItem
             // 
             this.simpleTabItem.AttachedControl = this.simpleTabControlPanel;
@@ -631,17 +642,6 @@
             // 
             // 
             this.galleryContainer2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "2";
             // 
             // form
             // 
