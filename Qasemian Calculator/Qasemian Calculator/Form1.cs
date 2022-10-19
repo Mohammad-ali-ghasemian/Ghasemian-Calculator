@@ -46,7 +46,6 @@ namespace Qasemian_Calculator
             simpleTabControlPanel.Style.BackColor1.Color = Color.LightSlateGray;
             advancedTabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
             advancedTabControlPanel2.Style.BackColor1.Color = Color.White;
-            answerAreaBackgroundPanel.BackColor = Color.FromArgb(240, 255, 242, 201);
 
             Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
             zeroBtn.BackColor = numbersColor;
@@ -86,7 +85,7 @@ namespace Qasemian_Calculator
             zeroBtn.Region = reg;
             plusBtn.Region = reg;
 
-
+            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -94,5 +93,19 @@ namespace Qasemian_Calculator
             this.TopMost = alwaysTopChk.Checked;
         }
         
+    }
+
+    public class myButton : Button
+    {
+        private const int CS_DropShadow = 0x00000001;
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ClassStyle |= CS_DropShadow;
+                return cp;
+            }
+        }
     }
 }
