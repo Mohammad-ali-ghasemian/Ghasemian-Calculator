@@ -58,7 +58,7 @@
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
-            this.advancedTabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
+            this.advancedTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.alwaysTopChk = new System.Windows.Forms.CheckBox();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
@@ -75,7 +75,6 @@
             this.delBtn.FlatAppearance.BorderSize = 0;
             this.delBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
             this.delBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
-            this.delBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.delBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.delBtn.ForeColor = System.Drawing.Color.White;
             this.delBtn.Location = new System.Drawing.Point(326, 5);
@@ -462,7 +461,7 @@
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
             this.tabControl.Controls.Add(this.simpleTabControlPanel);
-            this.tabControl.Controls.Add(this.advancedTabControlPanel2);
+            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -542,27 +541,27 @@
             this.simpleTabItem.Text = "simple";
             this.simpleTabItem.TextColor = System.Drawing.Color.Black;
             // 
-            // advancedTabControlPanel2
+            // advancedTabControlPanel
             // 
-            this.advancedTabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
-            this.advancedTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.advancedTabControlPanel2.Location = new System.Drawing.Point(0, 33);
-            this.advancedTabControlPanel2.Name = "advancedTabControlPanel2";
-            this.advancedTabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.advancedTabControlPanel2.Size = new System.Drawing.Size(434, 430);
-            this.advancedTabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.advancedTabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.LightSlateGray;
-            this.advancedTabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.advancedTabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.advancedTabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.advancedTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
+            this.advancedTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.advancedTabControlPanel.Location = new System.Drawing.Point(0, 33);
+            this.advancedTabControlPanel.Name = "advancedTabControlPanel";
+            this.advancedTabControlPanel.Padding = new System.Windows.Forms.Padding(1);
+            this.advancedTabControlPanel.Size = new System.Drawing.Size(434, 430);
+            this.advancedTabControlPanel.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.advancedTabControlPanel.Style.BackColor2.Color = System.Drawing.Color.LightSlateGray;
+            this.advancedTabControlPanel.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.advancedTabControlPanel.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.advancedTabControlPanel.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.advancedTabControlPanel2.Style.GradientAngle = -90;
-            this.advancedTabControlPanel2.TabIndex = 5;
-            this.advancedTabControlPanel2.TabItem = this.advancedTabItem;
+            this.advancedTabControlPanel.Style.GradientAngle = -90;
+            this.advancedTabControlPanel.TabIndex = 5;
+            this.advancedTabControlPanel.TabItem = this.advancedTabItem;
             // 
             // advancedTabItem
             // 
-            this.advancedTabItem.AttachedControl = this.advancedTabControlPanel2;
+            this.advancedTabItem.AttachedControl = this.advancedTabControlPanel;
             this.advancedTabItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.advancedTabItem.BackColor2 = System.Drawing.Color.LightSlateGray;
             this.advancedTabItem.BorderColor = System.Drawing.Color.DarkSlateBlue;
@@ -638,12 +637,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(434, 561);
             this.Controls.Add(this.answerAreaLabel);
             this.Controls.Add(this.alwaysTopChk);
             this.Controls.Add(this.previousAnswerLabel);
             this.Controls.Add(this.tabControl);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.ForeColor = System.Drawing.Color.Maroon;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -667,7 +668,7 @@
         private DevComponents.DotNetBar.TabControl tabControl;
         private DevComponents.DotNetBar.TabControlPanel simpleTabControlPanel;
         private DevComponents.DotNetBar.TabItem simpleTabItem;
-        private DevComponents.DotNetBar.TabControlPanel advancedTabControlPanel2;
+        private DevComponents.DotNetBar.TabControlPanel advancedTabControlPanel;
         private DevComponents.DotNetBar.TabItem advancedTabItem;
         private System.Windows.Forms.CheckBox alwaysTopChk;
         private DevComponents.DotNetBar.GalleryContainer galleryContainer2;

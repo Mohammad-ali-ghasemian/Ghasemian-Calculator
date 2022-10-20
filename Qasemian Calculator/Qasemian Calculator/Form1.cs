@@ -44,8 +44,9 @@ namespace Qasemian_Calculator
         {
             simpleTabControlPanel.Style.BackColor2.Color = Color.White;
             simpleTabControlPanel.Style.BackColor1.Color = Color.LightSlateGray;
-            advancedTabControlPanel2.Style.BackColor2.Color = Color.LightSlateGray;
-            advancedTabControlPanel2.Style.BackColor1.Color = Color.White;
+            advancedTabControlPanel.Style.BackColor2.Color = Color.LightSlateGray;
+            advancedTabControlPanel.Style.BackColor1.Color = Color.White;
+            
 
             Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
             zeroBtn.BackColor = numbersColor;
@@ -97,7 +98,7 @@ namespace Qasemian_Calculator
 
     public class myButton : Button
     {
-        private const int CS_DropShadow = 0x00000001;
+        private const int CS_DropShadow = 0x00022220;
         protected override CreateParams CreateParams
         {
             get
