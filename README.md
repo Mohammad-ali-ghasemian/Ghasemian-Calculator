@@ -6,6 +6,6 @@ Environment of Qasemian-Calculator has been customized to improve user experienc
 
 Simplity and Beauty of QC is the strength of this windows application.
 
-TO USE THE PROGRAM ALL YOU HAVE TO DO IS TO DOWNLOAD THE EXE FILE ON THE MAIN PAGE.
+TO USE THE PROGRAM ALL YOU HAVE TO DO IS TO DOWNLOAD THE ZIP FILE ON THE MAIN PAGE.
 
 Just saying again, keep it simple and have fun !
