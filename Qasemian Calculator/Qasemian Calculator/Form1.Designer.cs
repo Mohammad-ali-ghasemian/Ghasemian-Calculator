@@ -72,9 +72,11 @@
             // delBtn
             // 
             this.delBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.delBtn.FlatAppearance.BorderSize = 0;
-            this.delBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.delBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.delBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.delBtn.FlatAppearance.BorderSize = 2;
+            this.delBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.delBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.delBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.delBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.delBtn.ForeColor = System.Drawing.Color.White;
             this.delBtn.Location = new System.Drawing.Point(326, 5);
@@ -88,9 +90,10 @@
             // CEBtn
             // 
             this.CEBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.CEBtn.FlatAppearance.BorderSize = 0;
-            this.CEBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.CEBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.CEBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.CEBtn.FlatAppearance.BorderSize = 2;
+            this.CEBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.CEBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.CEBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CEBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.CEBtn.ForeColor = System.Drawing.Color.White;
@@ -105,9 +108,10 @@
             // CBtn
             // 
             this.CBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.CBtn.FlatAppearance.BorderSize = 0;
-            this.CBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.CBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.CBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.CBtn.FlatAppearance.BorderSize = 2;
+            this.CBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.CBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.CBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.CBtn.ForeColor = System.Drawing.Color.White;
@@ -122,9 +126,10 @@
             // parenthesisBtn
             // 
             this.parenthesisBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.parenthesisBtn.FlatAppearance.BorderSize = 0;
-            this.parenthesisBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.parenthesisBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.parenthesisBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.parenthesisBtn.FlatAppearance.BorderSize = 2;
+            this.parenthesisBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.parenthesisBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.parenthesisBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.parenthesisBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.parenthesisBtn.ForeColor = System.Drawing.Color.White;
@@ -139,9 +144,10 @@
             // x2Btn
             // 
             this.x2Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.x2Btn.FlatAppearance.BorderSize = 0;
-            this.x2Btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.x2Btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.x2Btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.x2Btn.FlatAppearance.BorderSize = 2;
+            this.x2Btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.x2Btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.x2Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.x2Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.x2Btn.ForeColor = System.Drawing.Color.White;
@@ -155,9 +161,10 @@
             // radicalBtn
             // 
             this.radicalBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.radicalBtn.FlatAppearance.BorderSize = 0;
-            this.radicalBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.radicalBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.radicalBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.radicalBtn.FlatAppearance.BorderSize = 2;
+            this.radicalBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.radicalBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.radicalBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radicalBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.radicalBtn.ForeColor = System.Drawing.Color.White;
@@ -171,9 +178,10 @@
             // logBtn
             // 
             this.logBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.logBtn.FlatAppearance.BorderSize = 0;
-            this.logBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.logBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.logBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.logBtn.FlatAppearance.BorderSize = 2;
+            this.logBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.logBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.logBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.logBtn.ForeColor = System.Drawing.Color.White;
@@ -187,9 +195,10 @@
             // lnBtn
             // 
             this.lnBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.lnBtn.FlatAppearance.BorderSize = 0;
-            this.lnBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.lnBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.lnBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.lnBtn.FlatAppearance.BorderSize = 2;
+            this.lnBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.lnBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.lnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lnBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.lnBtn.ForeColor = System.Drawing.Color.White;
@@ -203,9 +212,10 @@
             // divideBtn
             // 
             this.divideBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.divideBtn.FlatAppearance.BorderSize = 0;
-            this.divideBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.divideBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.divideBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.divideBtn.FlatAppearance.BorderSize = 2;
+            this.divideBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.divideBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.divideBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.divideBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.divideBtn.ForeColor = System.Drawing.Color.White;
@@ -219,9 +229,10 @@
             // sevenBtn
             // 
             this.sevenBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.sevenBtn.FlatAppearance.BorderSize = 0;
-            this.sevenBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.sevenBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.sevenBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.sevenBtn.FlatAppearance.BorderSize = 2;
+            this.sevenBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.sevenBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.sevenBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sevenBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.sevenBtn.ForeColor = System.Drawing.Color.White;
@@ -235,9 +246,10 @@
             // eightBtn
             // 
             this.eightBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.eightBtn.FlatAppearance.BorderSize = 0;
-            this.eightBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.eightBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.eightBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.eightBtn.FlatAppearance.BorderSize = 2;
+            this.eightBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.eightBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.eightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eightBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.eightBtn.ForeColor = System.Drawing.Color.White;
@@ -251,9 +263,10 @@
             // nineBtn
             // 
             this.nineBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.nineBtn.FlatAppearance.BorderSize = 0;
-            this.nineBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.nineBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.nineBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.nineBtn.FlatAppearance.BorderSize = 2;
+            this.nineBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.nineBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.nineBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nineBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.nineBtn.ForeColor = System.Drawing.Color.White;
@@ -267,9 +280,10 @@
             // timesBtn
             // 
             this.timesBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.timesBtn.FlatAppearance.BorderSize = 0;
-            this.timesBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.timesBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.timesBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.timesBtn.FlatAppearance.BorderSize = 2;
+            this.timesBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.timesBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.timesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.timesBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.timesBtn.ForeColor = System.Drawing.Color.White;
@@ -283,9 +297,10 @@
             // fourBtn
             // 
             this.fourBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.fourBtn.FlatAppearance.BorderSize = 0;
-            this.fourBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.fourBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.fourBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.fourBtn.FlatAppearance.BorderSize = 2;
+            this.fourBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.fourBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.fourBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fourBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.fourBtn.ForeColor = System.Drawing.Color.White;
@@ -299,9 +314,10 @@
             // fiveBtn
             // 
             this.fiveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.fiveBtn.FlatAppearance.BorderSize = 0;
-            this.fiveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.fiveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.fiveBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.fiveBtn.FlatAppearance.BorderSize = 2;
+            this.fiveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.fiveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.fiveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fiveBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.fiveBtn.ForeColor = System.Drawing.Color.White;
@@ -315,9 +331,10 @@
             // sixBtn
             // 
             this.sixBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.sixBtn.FlatAppearance.BorderSize = 0;
-            this.sixBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.sixBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.sixBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.sixBtn.FlatAppearance.BorderSize = 2;
+            this.sixBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.sixBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.sixBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sixBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.sixBtn.ForeColor = System.Drawing.Color.White;
@@ -331,9 +348,10 @@
             // minusBtn
             // 
             this.minusBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.minusBtn.FlatAppearance.BorderSize = 0;
-            this.minusBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.minusBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.minusBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.minusBtn.FlatAppearance.BorderSize = 2;
+            this.minusBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.minusBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.minusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.minusBtn.ForeColor = System.Drawing.Color.White;
@@ -347,9 +365,10 @@
             // oneBtn
             // 
             this.oneBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.oneBtn.FlatAppearance.BorderSize = 0;
-            this.oneBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.oneBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.oneBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.oneBtn.FlatAppearance.BorderSize = 2;
+            this.oneBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.oneBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.oneBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.oneBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.oneBtn.ForeColor = System.Drawing.Color.White;
@@ -363,9 +382,10 @@
             // twoBtn
             // 
             this.twoBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.twoBtn.FlatAppearance.BorderSize = 0;
-            this.twoBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.twoBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.twoBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.twoBtn.FlatAppearance.BorderSize = 2;
+            this.twoBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.twoBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.twoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.twoBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.twoBtn.ForeColor = System.Drawing.Color.White;
@@ -379,9 +399,10 @@
             // threeBtn
             // 
             this.threeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.threeBtn.FlatAppearance.BorderSize = 0;
-            this.threeBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.threeBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.threeBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.threeBtn.FlatAppearance.BorderSize = 2;
+            this.threeBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.threeBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.threeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.threeBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.threeBtn.ForeColor = System.Drawing.Color.White;
@@ -395,9 +416,10 @@
             // plusBtn
             // 
             this.plusBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.plusBtn.FlatAppearance.BorderSize = 0;
-            this.plusBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.plusBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.plusBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.plusBtn.FlatAppearance.BorderSize = 2;
+            this.plusBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.plusBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.plusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.plusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.plusBtn.ForeColor = System.Drawing.Color.White;
@@ -411,9 +433,10 @@
             // zeroBtn
             // 
             this.zeroBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.zeroBtn.FlatAppearance.BorderSize = 0;
-            this.zeroBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.zeroBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.zeroBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.zeroBtn.FlatAppearance.BorderSize = 2;
+            this.zeroBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.zeroBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.zeroBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.zeroBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.zeroBtn.ForeColor = System.Drawing.Color.White;
@@ -427,9 +450,10 @@
             // dotBtn
             // 
             this.dotBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.dotBtn.FlatAppearance.BorderSize = 0;
-            this.dotBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.dotBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.dotBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.dotBtn.FlatAppearance.BorderSize = 2;
+            this.dotBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.dotBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.dotBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dotBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.dotBtn.ForeColor = System.Drawing.Color.White;
@@ -443,9 +467,10 @@
             // equallBtn
             // 
             this.equallBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.equallBtn.FlatAppearance.BorderSize = 0;
-            this.equallBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(190)))), ((int)(((byte)(141)))));
-            this.equallBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tan;
+            this.equallBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.equallBtn.FlatAppearance.BorderSize = 2;
+            this.equallBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.equallBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
             this.equallBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.equallBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.equallBtn.ForeColor = System.Drawing.Color.White;

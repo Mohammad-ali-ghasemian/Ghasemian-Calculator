@@ -93,7 +93,7 @@ namespace Qasemian_Calculator
         {
             this.TopMost = alwaysTopChk.Checked;
         }
-        
+
     }
 
     public class myButton : Button
