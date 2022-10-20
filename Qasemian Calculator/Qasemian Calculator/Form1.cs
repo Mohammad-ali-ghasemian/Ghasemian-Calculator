@@ -47,7 +47,6 @@ namespace Qasemian_Calculator
             advancedTabControlPanel.Style.BackColor2.Color = Color.LightSlateGray;
             advancedTabControlPanel.Style.BackColor1.Color = Color.White;
             
-
             Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
             zeroBtn.BackColor = numbersColor;
             oneBtn.BackColor = numbersColor;

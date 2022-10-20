@@ -63,6 +63,31 @@ namespace Qasemian_Calculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Assassin_s_Creed_Persian_Emblem_by_johnnygreek989_on_DeviantArt {
+            get {
+                object obj = ResourceManager.GetObject("Assassin\'s Creed Persian Emblem by johnnygreek989 on DeviantArt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Daily_UI___4___Calculator__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Daily UI  #4 - Calculator (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Daily_UI___4___Calculator__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Daily UI  #4 - Calculator (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

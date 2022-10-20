@@ -485,8 +485,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.simpleTabControlPanel);
             this.tabControl.Controls.Add(this.advancedTabControlPanel);
+            this.tabControl.Controls.Add(this.simpleTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -562,6 +562,7 @@
             this.simpleTabItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.simpleTabItem.BackColor2 = System.Drawing.Color.LightSlateGray;
             this.simpleTabItem.BorderColor = System.Drawing.Color.Navy;
+            this.simpleTabItem.Icon = ((System.Drawing.Icon)(resources.GetObject("simpleTabItem.Icon")));
             this.simpleTabItem.Name = "simpleTabItem";
             this.simpleTabItem.Text = "simple";
             this.simpleTabItem.TextColor = System.Drawing.Color.Black;
@@ -590,6 +591,7 @@
             this.advancedTabItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.advancedTabItem.BackColor2 = System.Drawing.Color.LightSlateGray;
             this.advancedTabItem.BorderColor = System.Drawing.Color.DarkSlateBlue;
+            this.advancedTabItem.Icon = ((System.Drawing.Icon)(resources.GetObject("advancedTabItem.Icon")));
             this.advancedTabItem.Name = "advancedTabItem";
             this.advancedTabItem.Text = "advanced";
             this.advancedTabItem.TextColor = System.Drawing.Color.Black;
