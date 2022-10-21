@@ -96,8 +96,8 @@ namespace Qasemian_Calculator
         private void circlePnl_Paint(object sender, PaintEventArgs e)
         {
             Graphics halfCircle = this.circlePnl.CreateGraphics();
-            SolidBrush b = new SolidBrush(Color.MediumAquamarine);
-            halfCircle.FillEllipse(b, -90, 0, 165, 430);
+            SolidBrush SB = new SolidBrush(Color.MediumAquamarine);
+            halfCircle.FillEllipse(SB, -90, 0, 165, 430);
         }
     }
 
