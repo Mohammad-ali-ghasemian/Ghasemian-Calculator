@@ -42,10 +42,10 @@ namespace Qasemian_Calculator
 
         private void form_Load(object sender, EventArgs e)
         {
-            simpleTabControlPanel.Style.BackColor2.Color = Color.White;
-            simpleTabControlPanel.Style.BackColor1.Color = Color.LightSlateGray;
-            advancedTabControlPanel.Style.BackColor2.Color = Color.LightSlateGray;
-            advancedTabControlPanel.Style.BackColor1.Color = Color.White;
+            simpleTabControlPanel.Style.BackColor2.Color = Color.PaleVioletRed;
+            simpleTabControlPanel.Style.BackColor1.Color = Color.MediumAquamarine;
+            advancedTabControlPanel.Style.BackColor2.Color = Color.MediumAquamarine;
+            advancedTabControlPanel.Style.BackColor1.Color = Color.PaleVioletRed;
             
             Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
             zeroBtn.BackColor = numbersColor;
@@ -93,6 +93,12 @@ namespace Qasemian_Calculator
             this.TopMost = alwaysTopChk.Checked;
         }
 
+        private void circlePnl_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics halfCircle = this.circlePnl.CreateGraphics();
+            SolidBrush b = new SolidBrush(Color.FromArgb(0, 16, 47));
+            halfCircle.FillEllipse(b, -100, 0, 165, 430);
+        }
     }
 
     public class myButton : Button

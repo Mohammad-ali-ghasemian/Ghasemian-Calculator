@@ -56,6 +56,7 @@
             this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
+            this.circlePnl = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.advancedTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
@@ -485,8 +486,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Controls.Add(this.simpleTabControlPanel);
+            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -528,6 +529,7 @@
             this.simpleTabControlPanel.Controls.Add(this.CBtn);
             this.simpleTabControlPanel.Controls.Add(this.CEBtn);
             this.simpleTabControlPanel.Controls.Add(this.delBtn);
+            this.simpleTabControlPanel.Controls.Add(this.circlePnl);
             this.simpleTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
             this.simpleTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.simpleTabControlPanel.Location = new System.Drawing.Point(0, 33);
@@ -544,6 +546,15 @@
             this.simpleTabControlPanel.TabIndex = 1;
             this.simpleTabControlPanel.TabItem = this.simpleTabItem;
             this.simpleTabControlPanel.UseCustomStyle = true;
+            // 
+            // circlePnl
+            // 
+            this.circlePnl.BackColor = System.Drawing.Color.Transparent;
+            this.circlePnl.Location = new System.Drawing.Point(1, 0);
+            this.circlePnl.Name = "circlePnl";
+            this.circlePnl.Size = new System.Drawing.Size(109, 430);
+            this.circlePnl.TabIndex = 29;
+            this.circlePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.circlePnl_Paint);
             // 
             // label1
             // 
@@ -664,7 +675,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(434, 561);
             this.Controls.Add(this.answerAreaLabel);
             this.Controls.Add(this.alwaysTopChk);
@@ -726,6 +736,7 @@
         private System.Windows.Forms.Label label1;
         private DevComponents.DotNetBar.LabelX previousAnswerLabel;
         private DevComponents.DotNetBar.LabelX answerAreaLabel;
+        private System.Windows.Forms.Panel circlePnl;
     }
 }
 
