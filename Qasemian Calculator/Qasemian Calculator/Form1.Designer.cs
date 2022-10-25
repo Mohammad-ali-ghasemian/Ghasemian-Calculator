@@ -56,8 +56,8 @@
             this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
-            this.circlePnl = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.circlePnl = new System.Windows.Forms.Panel();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.advancedTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
@@ -547,15 +547,6 @@
             this.simpleTabControlPanel.TabItem = this.simpleTabItem;
             this.simpleTabControlPanel.UseCustomStyle = true;
             // 
-            // circlePnl
-            // 
-            this.circlePnl.BackColor = System.Drawing.Color.Transparent;
-            this.circlePnl.Location = new System.Drawing.Point(1, 0);
-            this.circlePnl.Name = "circlePnl";
-            this.circlePnl.Size = new System.Drawing.Size(109, 430);
-            this.circlePnl.TabIndex = 29;
-            this.circlePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.circlePnl_Paint);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -566,6 +557,15 @@
             this.label1.Size = new System.Drawing.Size(13, 13);
             this.label1.TabIndex = 28;
             this.label1.Text = "2";
+            // 
+            // circlePnl
+            // 
+            this.circlePnl.BackColor = System.Drawing.Color.Transparent;
+            this.circlePnl.Location = new System.Drawing.Point(1, 0);
+            this.circlePnl.Name = "circlePnl";
+            this.circlePnl.Size = new System.Drawing.Size(109, 430);
+            this.circlePnl.TabIndex = 29;
+            this.circlePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.circlePnl_Paint);
             // 
             // simpleTabItem
             // 

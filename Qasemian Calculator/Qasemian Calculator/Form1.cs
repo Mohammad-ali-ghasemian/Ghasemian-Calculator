@@ -100,18 +100,4 @@ namespace Qasemian_Calculator
             halfCircle.FillEllipse(SB, -90, 0, 165, 430);
         }
     }
-
-    public class myButton : Button
-    {
-        private const int CS_DropShadow = 0x00022220;
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.ClassStyle |= CS_DropShadow;
-                return cp;
-            }
-        }
-    }
 }
