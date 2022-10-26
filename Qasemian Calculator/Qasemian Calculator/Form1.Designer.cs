@@ -533,8 +533,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.simpleTabControlPanel);
             this.tabControl.Controls.Add(this.advancedTabControlPanel);
+            this.tabControl.Controls.Add(this.simpleTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -782,6 +782,7 @@
             this.advanced0Btn.Name = "advanced0Btn";
             this.advanced0Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced0Btn.TabIndex = 50;
+            this.advanced0Btn.Tag = "numberButtons";
             this.advanced0Btn.Text = "0";
             this.advanced0Btn.UseVisualStyleBackColor = false;
             // 
@@ -850,6 +851,7 @@
             this.advanced1Btn.Name = "advanced1Btn";
             this.advanced1Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced1Btn.TabIndex = 46;
+            this.advanced1Btn.Tag = "numberButtons";
             this.advanced1Btn.Text = "1";
             this.advanced1Btn.UseVisualStyleBackColor = false;
             // 
@@ -867,6 +869,7 @@
             this.advanced2Btn.Name = "advanced2Btn";
             this.advanced2Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced2Btn.TabIndex = 45;
+            this.advanced2Btn.Tag = "numberButtons";
             this.advanced2Btn.Text = "2";
             this.advanced2Btn.UseVisualStyleBackColor = false;
             // 
@@ -884,6 +887,7 @@
             this.advanced3Btn.Name = "advanced3Btn";
             this.advanced3Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced3Btn.TabIndex = 44;
+            this.advanced3Btn.Tag = "numberButtons";
             this.advanced3Btn.Text = "3";
             this.advanced3Btn.UseVisualStyleBackColor = false;
             // 
@@ -918,6 +922,7 @@
             this.advanced4Btn.Name = "advanced4Btn";
             this.advanced4Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced4Btn.TabIndex = 42;
+            this.advanced4Btn.Tag = "numberButtons";
             this.advanced4Btn.Text = "4";
             this.advanced4Btn.UseVisualStyleBackColor = false;
             // 
@@ -935,6 +940,7 @@
             this.advanced5Btn.Name = "advanced5Btn";
             this.advanced5Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced5Btn.TabIndex = 41;
+            this.advanced5Btn.Tag = "numberButtons";
             this.advanced5Btn.Text = "5";
             this.advanced5Btn.UseVisualStyleBackColor = false;
             // 
@@ -952,6 +958,7 @@
             this.advanced6Btn.Name = "advanced6Btn";
             this.advanced6Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced6Btn.TabIndex = 40;
+            this.advanced6Btn.Tag = "numberButtons";
             this.advanced6Btn.Text = "6";
             this.advanced6Btn.UseVisualStyleBackColor = false;
             // 
@@ -986,6 +993,7 @@
             this.advanced7Btn.Name = "advanced7Btn";
             this.advanced7Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced7Btn.TabIndex = 38;
+            this.advanced7Btn.Tag = "numberButtons";
             this.advanced7Btn.Text = "7";
             this.advanced7Btn.UseVisualStyleBackColor = false;
             // 
@@ -1003,6 +1011,7 @@
             this.advanced8Btn.Name = "advanced8Btn";
             this.advanced8Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced8Btn.TabIndex = 37;
+            this.advanced8Btn.Tag = "numberButtons";
             this.advanced8Btn.Text = "8";
             this.advanced8Btn.UseVisualStyleBackColor = false;
             // 
@@ -1020,6 +1029,7 @@
             this.advanced9Btn.Name = "advanced9Btn";
             this.advanced9Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced9Btn.TabIndex = 36;
+            this.advanced9Btn.Tag = "numberButtons";
             this.advanced9Btn.Text = "9";
             this.advanced9Btn.UseVisualStyleBackColor = false;
             // 
@@ -1037,6 +1047,7 @@
             this.advancedModBtn.Name = "advancedModBtn";
             this.advancedModBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedModBtn.TabIndex = 34;
+            this.advancedModBtn.Tag = "advancedRoundedButtons";
             this.advancedModBtn.Text = "mod";
             this.advancedModBtn.UseVisualStyleBackColor = false;
             // 
@@ -1054,6 +1065,7 @@
             this.advancedPowerBtn.Name = "advancedPowerBtn";
             this.advancedPowerBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedPowerBtn.TabIndex = 33;
+            this.advancedPowerBtn.Tag = "advancedRoundedButtons";
             this.advancedPowerBtn.Text = "x";
             this.advancedPowerBtn.UseVisualStyleBackColor = false;
             this.advancedPowerBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
@@ -1073,6 +1085,7 @@
             this.advancedRadicalBtn.Name = "advancedRadicalBtn";
             this.advancedRadicalBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedRadicalBtn.TabIndex = 32;
+            this.advancedRadicalBtn.Tag = "advancedRoundedButtons";
             this.advancedRadicalBtn.Text = "√x";
             this.advancedRadicalBtn.UseVisualStyleBackColor = false;
             this.advancedRadicalBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
@@ -1092,7 +1105,7 @@
             this.advancedParenthesisBtn.Name = "advancedParenthesisBtn";
             this.advancedParenthesisBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedParenthesisBtn.TabIndex = 31;
-            this.advancedParenthesisBtn.Tag = "";
+            this.advancedParenthesisBtn.Tag = "advancedRoundedButtons";
             this.advancedParenthesisBtn.Text = "( )";
             this.advancedParenthesisBtn.UseVisualStyleBackColor = false;
             // 
@@ -1110,7 +1123,7 @@
             this.advancedCBtn.Name = "advancedCBtn";
             this.advancedCBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedCBtn.TabIndex = 30;
-            this.advancedCBtn.Tag = "";
+            this.advancedCBtn.Tag = "advancedRoundedButtons";
             this.advancedCBtn.Text = "C";
             this.advancedCBtn.UseVisualStyleBackColor = false;
             // 
@@ -1128,7 +1141,7 @@
             this.advancedCEBtn.Name = "advancedCEBtn";
             this.advancedCEBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedCEBtn.TabIndex = 29;
-            this.advancedCEBtn.Tag = "";
+            this.advancedCEBtn.Tag = "advancedRoundedButtons";
             this.advancedCEBtn.Text = "CE";
             this.advancedCEBtn.UseVisualStyleBackColor = false;
             // 
@@ -1146,7 +1159,7 @@
             this.advancedDelBtn.Name = "advancedDelBtn";
             this.advancedDelBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedDelBtn.TabIndex = 28;
-            this.advancedDelBtn.Tag = "";
+            this.advancedDelBtn.Tag = "advancedRoundedButtons";
             this.advancedDelBtn.Text = "⌫";
             this.advancedDelBtn.UseVisualStyleBackColor = false;
             // 

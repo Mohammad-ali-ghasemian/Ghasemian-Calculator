@@ -61,6 +61,13 @@ namespace Qasemian_Calculator
                         control.BackColor = numbersColor;
                 }
             }
+            foreach (Control control in advancedTabControlPanel.Controls)
+            {
+                if (control.Tag != null && control.Tag == "advancedRoundedButtons")
+                    control.Region = reg;
+                if (control.Tag != null && control.Tag == "numberButtons")
+                    control.BackColor = numbersColor;
+            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
