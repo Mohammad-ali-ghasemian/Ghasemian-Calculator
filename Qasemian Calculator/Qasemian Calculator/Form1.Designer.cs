@@ -98,6 +98,7 @@
             this.logYLbl = new System.Windows.Forms.Label();
             this.radicalYLbl = new System.Windows.Forms.Label();
             this.powerLbl = new System.Windows.Forms.Label();
+            this.advancedTrigonometryBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.simpleTabControlPanel.SuspendLayout();
@@ -532,8 +533,8 @@
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Controls.Add(this.simpleTabControlPanel);
+            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -626,6 +627,7 @@
             // 
             // advancedTabControlPanel
             // 
+            this.advancedTabControlPanel.Controls.Add(this.advancedTrigonometryBtn);
             this.advancedTabControlPanel.Controls.Add(this.powerLbl);
             this.advancedTabControlPanel.Controls.Add(this.radicalYLbl);
             this.advancedTabControlPanel.Controls.Add(this.logYLbl);
@@ -1031,7 +1033,7 @@
             this.advancedModBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedModBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedModBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedModBtn.Location = new System.Drawing.Point(119, 76);
+            this.advancedModBtn.Location = new System.Drawing.Point(129, 76);
             this.advancedModBtn.Name = "advancedModBtn";
             this.advancedModBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedModBtn.TabIndex = 34;
@@ -1048,7 +1050,7 @@
             this.advancedPowerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedPowerBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedPowerBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedPowerBtn.Location = new System.Drawing.Point(224, 76);
+            this.advancedPowerBtn.Location = new System.Drawing.Point(231, 76);
             this.advancedPowerBtn.Name = "advancedPowerBtn";
             this.advancedPowerBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedPowerBtn.TabIndex = 33;
@@ -1067,7 +1069,7 @@
             this.advancedRadicalBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedRadicalBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedRadicalBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedRadicalBtn.Location = new System.Drawing.Point(329, 76);
+            this.advancedRadicalBtn.Location = new System.Drawing.Point(333, 76);
             this.advancedRadicalBtn.Name = "advancedRadicalBtn";
             this.advancedRadicalBtn.Size = new System.Drawing.Size(95, 67);
             this.advancedRadicalBtn.TabIndex = 32;
@@ -1272,7 +1274,7 @@
             this.radicalYLbl.AutoSize = true;
             this.radicalYLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.radicalYLbl.ForeColor = System.Drawing.Color.White;
-            this.radicalYLbl.Location = new System.Drawing.Point(357, 96);
+            this.radicalYLbl.Location = new System.Drawing.Point(361, 96);
             this.radicalYLbl.Name = "radicalYLbl";
             this.radicalYLbl.Size = new System.Drawing.Size(12, 13);
             this.radicalYLbl.TabIndex = 59;
@@ -1283,11 +1285,29 @@
             this.powerLbl.AutoSize = true;
             this.powerLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.powerLbl.ForeColor = System.Drawing.Color.White;
-            this.powerLbl.Location = new System.Drawing.Point(278, 96);
+            this.powerLbl.Location = new System.Drawing.Point(285, 96);
             this.powerLbl.Name = "powerLbl";
             this.powerLbl.Size = new System.Drawing.Size(12, 13);
             this.powerLbl.TabIndex = 60;
             this.powerLbl.Text = "y";
+            // 
+            // advancedTrigonometryBtn
+            // 
+            this.advancedTrigonometryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedTrigonometryBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedTrigonometryBtn.FlatAppearance.BorderSize = 2;
+            this.advancedTrigonometryBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedTrigonometryBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedTrigonometryBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedTrigonometryBtn.Font = new System.Drawing.Font("Ravie", 7F, System.Drawing.FontStyle.Bold);
+            this.advancedTrigonometryBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedTrigonometryBtn.Location = new System.Drawing.Point(-1, 76);
+            this.advancedTrigonometryBtn.Name = "advancedTrigonometryBtn";
+            this.advancedTrigonometryBtn.Size = new System.Drawing.Size(127, 67);
+            this.advancedTrigonometryBtn.TabIndex = 61;
+            this.advancedTrigonometryBtn.Tag = "";
+            this.advancedTrigonometryBtn.Text = "Trigonometry";
+            this.advancedTrigonometryBtn.UseVisualStyleBackColor = false;
             // 
             // form
             // 
@@ -1391,6 +1411,7 @@
         private System.Windows.Forms.Label naiperPowerLbl;
         private System.Windows.Forms.Label radicalYLbl;
         private System.Windows.Forms.Label powerLbl;
+        private System.Windows.Forms.Button advancedTrigonometryBtn;
     }
 }
 
