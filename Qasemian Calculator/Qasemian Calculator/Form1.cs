@@ -14,7 +14,7 @@ namespace Qasemian_Calculator
 {
     public partial class form : Form
     {
-        //Rounding buttons
+        //making buttons round
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
@@ -69,11 +69,22 @@ namespace Qasemian_Calculator
             this.TopMost = alwaysTopChk.Checked;
         }
 
+        //making left-side colorfull half circle
         private void circlePnl_Paint(object sender, PaintEventArgs e)
         {
             Graphics halfCircle = this.circlePnl.CreateGraphics();
             SolidBrush SB = new SolidBrush(Color.MediumAquamarine);
             halfCircle.FillEllipse(SB, -90, 0, 165, 430);
+        }
+
+        private void x2Btn_MouseHover(object sender, EventArgs e)
+        {
+            x2PowerLabel.BackColor = Color.FromArgb(150, 200, 157);
+        }
+
+        private void x2Btn_MouseLeave(object sender, EventArgs e)
+        {
+            x2PowerLabel.BackColor = Color.FromArgb(116, 152, 157);
         }
     }
 }
