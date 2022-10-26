@@ -82,7 +82,7 @@
             this.advanced8Btn = new System.Windows.Forms.Button();
             this.advanced9Btn = new System.Windows.Forms.Button();
             this.advancedModBtn = new System.Windows.Forms.Button();
-            this.advancedPowerLbl = new System.Windows.Forms.Button();
+            this.advancedPowerBtn = new System.Windows.Forms.Button();
             this.advancedRadicalBtn = new System.Windows.Forms.Button();
             this.advancedParenthesisBtn = new System.Windows.Forms.Button();
             this.advancedCBtn = new System.Windows.Forms.Button();
@@ -90,7 +90,7 @@
             this.advancedDelBtn = new System.Windows.Forms.Button();
             this.advanced2nBtn = new System.Windows.Forms.Button();
             this.advancedFactorialBtn = new System.Windows.Forms.Button();
-            this.advancedNapier = new System.Windows.Forms.Button();
+            this.advancedNapierBtn = new System.Windows.Forms.Button();
             this.advancedLogBtn = new System.Windows.Forms.Button();
             this.power2nLbl = new System.Windows.Forms.Label();
             this.naiperPowerLbl = new System.Windows.Forms.Label();
@@ -192,8 +192,8 @@
             this.x2Btn.TabIndex = 11;
             this.x2Btn.Text = "x";
             this.x2Btn.UseVisualStyleBackColor = false;
-            this.x2Btn.MouseLeave += new System.EventHandler(this.x2Btn_MouseLeave);
-            this.x2Btn.MouseHover += new System.EventHandler(this.x2Btn_MouseHover);
+            this.x2Btn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.x2Btn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // radicalBtn
             // 
@@ -634,7 +634,7 @@
             this.advancedTabControlPanel.Controls.Add(this.power2nLbl);
             this.advancedTabControlPanel.Controls.Add(this.advanced2nBtn);
             this.advancedTabControlPanel.Controls.Add(this.advancedFactorialBtn);
-            this.advancedTabControlPanel.Controls.Add(this.advancedNapier);
+            this.advancedTabControlPanel.Controls.Add(this.advancedNapierBtn);
             this.advancedTabControlPanel.Controls.Add(this.advancedLogBtn);
             this.advancedTabControlPanel.Controls.Add(this.advancedPlusBtn);
             this.advancedTabControlPanel.Controls.Add(this.advancedCEBtn);
@@ -647,7 +647,7 @@
             this.advancedTabControlPanel.Controls.Add(this.advancedMinusBtn);
             this.advancedTabControlPanel.Controls.Add(this.advancedRadicalBtn);
             this.advancedTabControlPanel.Controls.Add(this.advanced1Btn);
-            this.advancedTabControlPanel.Controls.Add(this.advancedPowerLbl);
+            this.advancedTabControlPanel.Controls.Add(this.advancedPowerBtn);
             this.advancedTabControlPanel.Controls.Add(this.advanced2Btn);
             this.advancedTabControlPanel.Controls.Add(this.advancedModBtn);
             this.advancedTabControlPanel.Controls.Add(this.advanced3Btn);
@@ -759,7 +759,7 @@
             this.advancedPlusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedPlusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedPlusBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedPlusBtn.Location = new System.Drawing.Point(88, 367);
+            this.advancedPlusBtn.Location = new System.Drawing.Point(86, 367);
             this.advancedPlusBtn.Name = "advancedPlusBtn";
             this.advancedPlusBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedPlusBtn.TabIndex = 51;
@@ -776,7 +776,7 @@
             this.advanced0Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced0Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced0Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced0Btn.Location = new System.Drawing.Point(175, 367);
+            this.advanced0Btn.Location = new System.Drawing.Point(173, 367);
             this.advanced0Btn.Name = "advanced0Btn";
             this.advanced0Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced0Btn.TabIndex = 50;
@@ -793,7 +793,7 @@
             this.advancedDotBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedDotBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedDotBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedDotBtn.Location = new System.Drawing.Point(262, 367);
+            this.advancedDotBtn.Location = new System.Drawing.Point(260, 367);
             this.advancedDotBtn.Name = "advancedDotBtn";
             this.advancedDotBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedDotBtn.TabIndex = 49;
@@ -810,7 +810,7 @@
             this.advancedEquallBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedEquallBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedEquallBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedEquallBtn.Location = new System.Drawing.Point(349, 367);
+            this.advancedEquallBtn.Location = new System.Drawing.Point(347, 367);
             this.advancedEquallBtn.Name = "advancedEquallBtn";
             this.advancedEquallBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedEquallBtn.TabIndex = 48;
@@ -827,7 +827,7 @@
             this.advancedMinusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedMinusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedMinusBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedMinusBtn.Location = new System.Drawing.Point(88, 296);
+            this.advancedMinusBtn.Location = new System.Drawing.Point(86, 296);
             this.advancedMinusBtn.Name = "advancedMinusBtn";
             this.advancedMinusBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedMinusBtn.TabIndex = 47;
@@ -844,7 +844,7 @@
             this.advanced1Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced1Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced1Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced1Btn.Location = new System.Drawing.Point(175, 296);
+            this.advanced1Btn.Location = new System.Drawing.Point(173, 296);
             this.advanced1Btn.Name = "advanced1Btn";
             this.advanced1Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced1Btn.TabIndex = 46;
@@ -861,7 +861,7 @@
             this.advanced2Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced2Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced2Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced2Btn.Location = new System.Drawing.Point(262, 296);
+            this.advanced2Btn.Location = new System.Drawing.Point(260, 296);
             this.advanced2Btn.Name = "advanced2Btn";
             this.advanced2Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced2Btn.TabIndex = 45;
@@ -878,7 +878,7 @@
             this.advanced3Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced3Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced3Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced3Btn.Location = new System.Drawing.Point(349, 296);
+            this.advanced3Btn.Location = new System.Drawing.Point(347, 296);
             this.advanced3Btn.Name = "advanced3Btn";
             this.advanced3Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced3Btn.TabIndex = 44;
@@ -895,7 +895,7 @@
             this.advancedMultipleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedMultipleBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedMultipleBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedMultipleBtn.Location = new System.Drawing.Point(88, 226);
+            this.advancedMultipleBtn.Location = new System.Drawing.Point(86, 226);
             this.advancedMultipleBtn.Name = "advancedMultipleBtn";
             this.advancedMultipleBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedMultipleBtn.TabIndex = 43;
@@ -912,7 +912,7 @@
             this.advanced4Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced4Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced4Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced4Btn.Location = new System.Drawing.Point(175, 226);
+            this.advanced4Btn.Location = new System.Drawing.Point(173, 226);
             this.advanced4Btn.Name = "advanced4Btn";
             this.advanced4Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced4Btn.TabIndex = 42;
@@ -929,7 +929,7 @@
             this.advanced5Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced5Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced5Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced5Btn.Location = new System.Drawing.Point(262, 226);
+            this.advanced5Btn.Location = new System.Drawing.Point(260, 226);
             this.advanced5Btn.Name = "advanced5Btn";
             this.advanced5Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced5Btn.TabIndex = 41;
@@ -946,7 +946,7 @@
             this.advanced6Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced6Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced6Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced6Btn.Location = new System.Drawing.Point(349, 226);
+            this.advanced6Btn.Location = new System.Drawing.Point(347, 226);
             this.advanced6Btn.Name = "advanced6Btn";
             this.advanced6Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced6Btn.TabIndex = 40;
@@ -963,7 +963,7 @@
             this.advancedDivisionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedDivisionBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedDivisionBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedDivisionBtn.Location = new System.Drawing.Point(88, 154);
+            this.advancedDivisionBtn.Location = new System.Drawing.Point(86, 154);
             this.advancedDivisionBtn.Name = "advancedDivisionBtn";
             this.advancedDivisionBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedDivisionBtn.TabIndex = 39;
@@ -980,7 +980,7 @@
             this.advanced7Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced7Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced7Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced7Btn.Location = new System.Drawing.Point(175, 154);
+            this.advanced7Btn.Location = new System.Drawing.Point(173, 154);
             this.advanced7Btn.Name = "advanced7Btn";
             this.advanced7Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced7Btn.TabIndex = 38;
@@ -997,7 +997,7 @@
             this.advanced8Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced8Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced8Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced8Btn.Location = new System.Drawing.Point(262, 154);
+            this.advanced8Btn.Location = new System.Drawing.Point(260, 154);
             this.advanced8Btn.Name = "advanced8Btn";
             this.advanced8Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced8Btn.TabIndex = 37;
@@ -1014,7 +1014,7 @@
             this.advanced9Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced9Btn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced9Btn.ForeColor = System.Drawing.Color.White;
-            this.advanced9Btn.Location = new System.Drawing.Point(349, 154);
+            this.advanced9Btn.Location = new System.Drawing.Point(347, 154);
             this.advanced9Btn.Name = "advanced9Btn";
             this.advanced9Btn.Size = new System.Drawing.Size(87, 58);
             this.advanced9Btn.TabIndex = 36;
@@ -1038,22 +1038,24 @@
             this.advancedModBtn.Text = "mod";
             this.advancedModBtn.UseVisualStyleBackColor = false;
             // 
-            // advancedPowerLbl
+            // advancedPowerBtn
             // 
-            this.advancedPowerLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.advancedPowerLbl.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
-            this.advancedPowerLbl.FlatAppearance.BorderSize = 2;
-            this.advancedPowerLbl.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
-            this.advancedPowerLbl.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
-            this.advancedPowerLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.advancedPowerLbl.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            this.advancedPowerLbl.ForeColor = System.Drawing.Color.White;
-            this.advancedPowerLbl.Location = new System.Drawing.Point(224, 76);
-            this.advancedPowerLbl.Name = "advancedPowerLbl";
-            this.advancedPowerLbl.Size = new System.Drawing.Size(95, 67);
-            this.advancedPowerLbl.TabIndex = 33;
-            this.advancedPowerLbl.Text = "x";
-            this.advancedPowerLbl.UseVisualStyleBackColor = false;
+            this.advancedPowerBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedPowerBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedPowerBtn.FlatAppearance.BorderSize = 2;
+            this.advancedPowerBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedPowerBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedPowerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedPowerBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedPowerBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedPowerBtn.Location = new System.Drawing.Point(224, 76);
+            this.advancedPowerBtn.Name = "advancedPowerBtn";
+            this.advancedPowerBtn.Size = new System.Drawing.Size(95, 67);
+            this.advancedPowerBtn.TabIndex = 33;
+            this.advancedPowerBtn.Text = "x";
+            this.advancedPowerBtn.UseVisualStyleBackColor = false;
+            this.advancedPowerBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.advancedPowerBtn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // advancedRadicalBtn
             // 
@@ -1071,6 +1073,8 @@
             this.advancedRadicalBtn.TabIndex = 32;
             this.advancedRadicalBtn.Text = "√x";
             this.advancedRadicalBtn.UseVisualStyleBackColor = false;
+            this.advancedRadicalBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.advancedRadicalBtn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // advancedParenthesisBtn
             // 
@@ -1154,12 +1158,14 @@
             this.advanced2nBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advanced2nBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advanced2nBtn.ForeColor = System.Drawing.Color.White;
-            this.advanced2nBtn.Location = new System.Drawing.Point(1, 367);
+            this.advanced2nBtn.Location = new System.Drawing.Point(-1, 367);
             this.advanced2nBtn.Name = "advanced2nBtn";
             this.advanced2nBtn.Size = new System.Drawing.Size(87, 58);
             this.advanced2nBtn.TabIndex = 55;
             this.advanced2nBtn.Text = "2";
             this.advanced2nBtn.UseVisualStyleBackColor = false;
+            this.advanced2nBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.advanced2nBtn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // advancedFactorialBtn
             // 
@@ -1171,29 +1177,31 @@
             this.advancedFactorialBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedFactorialBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedFactorialBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedFactorialBtn.Location = new System.Drawing.Point(1, 296);
+            this.advancedFactorialBtn.Location = new System.Drawing.Point(-1, 296);
             this.advancedFactorialBtn.Name = "advancedFactorialBtn";
             this.advancedFactorialBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedFactorialBtn.TabIndex = 54;
             this.advancedFactorialBtn.Text = "x!";
             this.advancedFactorialBtn.UseVisualStyleBackColor = false;
             // 
-            // advancedNapier
+            // advancedNapierBtn
             // 
-            this.advancedNapier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.advancedNapier.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
-            this.advancedNapier.FlatAppearance.BorderSize = 2;
-            this.advancedNapier.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
-            this.advancedNapier.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
-            this.advancedNapier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.advancedNapier.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
-            this.advancedNapier.ForeColor = System.Drawing.Color.White;
-            this.advancedNapier.Location = new System.Drawing.Point(1, 226);
-            this.advancedNapier.Name = "advancedNapier";
-            this.advancedNapier.Size = new System.Drawing.Size(87, 58);
-            this.advancedNapier.TabIndex = 53;
-            this.advancedNapier.Text = "e";
-            this.advancedNapier.UseVisualStyleBackColor = false;
+            this.advancedNapierBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedNapierBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedNapierBtn.FlatAppearance.BorderSize = 2;
+            this.advancedNapierBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedNapierBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedNapierBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedNapierBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedNapierBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedNapierBtn.Location = new System.Drawing.Point(-1, 226);
+            this.advancedNapierBtn.Name = "advancedNapierBtn";
+            this.advancedNapierBtn.Size = new System.Drawing.Size(87, 58);
+            this.advancedNapierBtn.TabIndex = 53;
+            this.advancedNapierBtn.Text = "e";
+            this.advancedNapierBtn.UseVisualStyleBackColor = false;
+            this.advancedNapierBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.advancedNapierBtn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // advancedLogBtn
             // 
@@ -1205,19 +1213,21 @@
             this.advancedLogBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.advancedLogBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
             this.advancedLogBtn.ForeColor = System.Drawing.Color.White;
-            this.advancedLogBtn.Location = new System.Drawing.Point(1, 154);
+            this.advancedLogBtn.Location = new System.Drawing.Point(-1, 154);
             this.advancedLogBtn.Name = "advancedLogBtn";
             this.advancedLogBtn.Size = new System.Drawing.Size(87, 58);
             this.advancedLogBtn.TabIndex = 52;
             this.advancedLogBtn.Text = "log";
             this.advancedLogBtn.UseVisualStyleBackColor = false;
+            this.advancedLogBtn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
+            this.advancedLogBtn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
             // power2nLbl
             // 
             this.power2nLbl.AutoSize = true;
             this.power2nLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.power2nLbl.ForeColor = System.Drawing.Color.White;
-            this.power2nLbl.Location = new System.Drawing.Point(50, 376);
+            this.power2nLbl.Location = new System.Drawing.Point(48, 376);
             this.power2nLbl.Name = "power2nLbl";
             this.power2nLbl.Size = new System.Drawing.Size(13, 13);
             this.power2nLbl.TabIndex = 29;
@@ -1228,7 +1238,7 @@
             this.naiperPowerLbl.AutoSize = true;
             this.naiperPowerLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.naiperPowerLbl.ForeColor = System.Drawing.Color.White;
-            this.naiperPowerLbl.Location = new System.Drawing.Point(50, 237);
+            this.naiperPowerLbl.Location = new System.Drawing.Point(48, 237);
             this.naiperPowerLbl.Name = "naiperPowerLbl";
             this.naiperPowerLbl.Size = new System.Drawing.Size(12, 13);
             this.naiperPowerLbl.TabIndex = 56;
@@ -1240,7 +1250,7 @@
             this.logXLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.logXLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.logXLbl.ForeColor = System.Drawing.Color.White;
-            this.logXLbl.Location = new System.Drawing.Point(63, 173);
+            this.logXLbl.Location = new System.Drawing.Point(61, 173);
             this.logXLbl.Name = "logXLbl";
             this.logXLbl.Size = new System.Drawing.Size(15, 18);
             this.logXLbl.TabIndex = 57;
@@ -1251,7 +1261,7 @@
             this.logYLbl.AutoSize = true;
             this.logYLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
             this.logYLbl.ForeColor = System.Drawing.Color.White;
-            this.logYLbl.Location = new System.Drawing.Point(59, 189);
+            this.logYLbl.Location = new System.Drawing.Point(57, 189);
             this.logYLbl.Name = "logYLbl";
             this.logYLbl.Size = new System.Drawing.Size(12, 13);
             this.logYLbl.TabIndex = 58;
@@ -1359,7 +1369,7 @@
         private System.Windows.Forms.Button advancedMinusBtn;
         private System.Windows.Forms.Button advancedRadicalBtn;
         private System.Windows.Forms.Button advanced1Btn;
-        private System.Windows.Forms.Button advancedPowerLbl;
+        private System.Windows.Forms.Button advancedPowerBtn;
         private System.Windows.Forms.Button advanced2Btn;
         private System.Windows.Forms.Button advancedModBtn;
         private System.Windows.Forms.Button advanced3Btn;
@@ -1373,7 +1383,7 @@
         private System.Windows.Forms.Button advancedDivisionBtn;
         private System.Windows.Forms.Button advanced2nBtn;
         private System.Windows.Forms.Button advancedFactorialBtn;
-        private System.Windows.Forms.Button advancedNapier;
+        private System.Windows.Forms.Button advancedNapierBtn;
         private System.Windows.Forms.Button advancedLogBtn;
         private System.Windows.Forms.Label power2nLbl;
         private System.Windows.Forms.Label logYLbl;

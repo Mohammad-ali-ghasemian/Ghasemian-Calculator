@@ -61,7 +61,6 @@ namespace Qasemian_Calculator
                         control.BackColor = numbersColor;
                 }
             }
-
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -77,14 +76,60 @@ namespace Qasemian_Calculator
             halfCircle.FillEllipse(SB, -90, 0, 165, 430);
         }
 
-        private void x2Btn_MouseHover(object sender, EventArgs e)
+        private void labelsMouseLeave(object sender, EventArgs e)
         {
-            x2PowerLbl.BackColor = Color.FromArgb(150, 200, 157);
+            Color color = Color.FromArgb(116, 152, 157);
+            Button button = (Button)sender;
+            switch (button.Name)
+            {
+                case "x2Btn":
+                    x2PowerLbl.BackColor = color;
+                    break;
+                case "advanced2nBtn":
+                    power2nLbl.BackColor = color;
+                    break;
+                case "advancedNapierBtn":
+                    naiperPowerLbl.BackColor = color;
+                    break;
+                case "advancedLogBtn":
+                    logXLbl.BackColor = color;
+                    logYLbl.BackColor = color;
+                    break;
+                case "advancedRadicalBtn":
+                    radicalYLbl.BackColor = color;
+                    break;
+                case "advancedPowerBtn":
+                    powerLbl.BackColor = color;
+                    break;
+            }
         }
 
-        private void x2Btn_MouseLeave(object sender, EventArgs e)
+        private void labelsMouseHover(object sender, EventArgs e)
         {
-            x2PowerLbl.BackColor = Color.FromArgb(116, 152, 157);
+            Color color = Color.FromArgb(150, 200, 157);
+            Button button = (Button)sender;
+            switch (button.Name)
+            {
+                case "x2Btn":
+                    x2PowerLbl.BackColor = color;
+                    break;
+                case "advanced2nBtn":
+                    power2nLbl.BackColor = color;
+                    break;
+                case "advancedNapierBtn":
+                    naiperPowerLbl.BackColor = color;
+                    break;
+                case "advancedLogBtn":
+                    logXLbl.BackColor = color;
+                    logYLbl.BackColor = color;
+                    break;
+                case "advancedRadicalBtn":
+                    radicalYLbl.BackColor = color;
+                    break;
+                case "advancedPowerBtn":
+                    powerLbl.BackColor = color;
+                    break;
+            }
         }
     }
 }
