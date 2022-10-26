@@ -79,12 +79,12 @@ namespace Qasemian_Calculator
 
         private void x2Btn_MouseHover(object sender, EventArgs e)
         {
-            x2PowerLabel.BackColor = Color.FromArgb(150, 200, 157);
+            x2PowerLbl.BackColor = Color.FromArgb(150, 200, 157);
         }
 
         private void x2Btn_MouseLeave(object sender, EventArgs e)
         {
-            x2PowerLabel.BackColor = Color.FromArgb(116, 152, 157);
+            x2PowerLbl.BackColor = Color.FromArgb(116, 152, 157);
         }
     }
 }
