@@ -56,7 +56,7 @@
             this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
             this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.x2PowerLabel = new System.Windows.Forms.Label();
             this.circlePnl = new System.Windows.Forms.Panel();
             this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.advancedTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
@@ -65,9 +65,38 @@
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
             this.previousAnswerLabel = new DevComponents.DotNetBar.LabelX();
             this.answerAreaLabel = new DevComponents.DotNetBar.LabelX();
+            this.advancedPlusBtn = new System.Windows.Forms.Button();
+            this.advancedZeroBtn = new System.Windows.Forms.Button();
+            this.advancedDotBtn = new System.Windows.Forms.Button();
+            this.advancedEquallBtn = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.simpleTabControlPanel.SuspendLayout();
+            this.advancedTabControlPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // delBtn
@@ -158,6 +187,8 @@
             this.x2Btn.TabIndex = 11;
             this.x2Btn.Text = "x";
             this.x2Btn.UseVisualStyleBackColor = false;
+            this.x2Btn.MouseLeave += new System.EventHandler(this.x2Btn_MouseLeave);
+            this.x2Btn.MouseHover += new System.EventHandler(this.x2Btn_MouseHover);
             // 
             // radicalBtn
             // 
@@ -241,6 +272,7 @@
             this.sevenBtn.Name = "sevenBtn";
             this.sevenBtn.Size = new System.Drawing.Size(95, 67);
             this.sevenBtn.TabIndex = 14;
+            this.sevenBtn.Tag = "numberButtons";
             this.sevenBtn.Text = "7";
             this.sevenBtn.UseVisualStyleBackColor = false;
             // 
@@ -258,6 +290,7 @@
             this.eightBtn.Name = "eightBtn";
             this.eightBtn.Size = new System.Drawing.Size(95, 67);
             this.eightBtn.TabIndex = 13;
+            this.eightBtn.Tag = "numberButtons";
             this.eightBtn.Text = "8";
             this.eightBtn.UseVisualStyleBackColor = false;
             // 
@@ -275,6 +308,7 @@
             this.nineBtn.Name = "nineBtn";
             this.nineBtn.Size = new System.Drawing.Size(95, 67);
             this.nineBtn.TabIndex = 12;
+            this.nineBtn.Tag = "numberButtons";
             this.nineBtn.Text = "9";
             this.nineBtn.UseVisualStyleBackColor = false;
             // 
@@ -309,6 +343,7 @@
             this.fourBtn.Name = "fourBtn";
             this.fourBtn.Size = new System.Drawing.Size(95, 67);
             this.fourBtn.TabIndex = 18;
+            this.fourBtn.Tag = "numberButtons";
             this.fourBtn.Text = "4";
             this.fourBtn.UseVisualStyleBackColor = false;
             // 
@@ -326,6 +361,7 @@
             this.fiveBtn.Name = "fiveBtn";
             this.fiveBtn.Size = new System.Drawing.Size(95, 67);
             this.fiveBtn.TabIndex = 17;
+            this.fiveBtn.Tag = "numberButtons";
             this.fiveBtn.Text = "5";
             this.fiveBtn.UseVisualStyleBackColor = false;
             // 
@@ -343,6 +379,7 @@
             this.sixBtn.Name = "sixBtn";
             this.sixBtn.Size = new System.Drawing.Size(95, 67);
             this.sixBtn.TabIndex = 16;
+            this.sixBtn.Tag = "numberButtons";
             this.sixBtn.Text = "6";
             this.sixBtn.UseVisualStyleBackColor = false;
             // 
@@ -377,6 +414,7 @@
             this.oneBtn.Name = "oneBtn";
             this.oneBtn.Size = new System.Drawing.Size(95, 67);
             this.oneBtn.TabIndex = 22;
+            this.oneBtn.Tag = "numberButtons";
             this.oneBtn.Text = "1";
             this.oneBtn.UseVisualStyleBackColor = false;
             // 
@@ -394,6 +432,7 @@
             this.twoBtn.Name = "twoBtn";
             this.twoBtn.Size = new System.Drawing.Size(95, 67);
             this.twoBtn.TabIndex = 21;
+            this.twoBtn.Tag = "numberButtons";
             this.twoBtn.Text = "2";
             this.twoBtn.UseVisualStyleBackColor = false;
             // 
@@ -411,6 +450,7 @@
             this.threeBtn.Name = "threeBtn";
             this.threeBtn.Size = new System.Drawing.Size(95, 67);
             this.threeBtn.TabIndex = 20;
+            this.threeBtn.Tag = "numberButtons";
             this.threeBtn.Text = "3";
             this.threeBtn.UseVisualStyleBackColor = false;
             // 
@@ -445,6 +485,7 @@
             this.zeroBtn.Name = "zeroBtn";
             this.zeroBtn.Size = new System.Drawing.Size(95, 67);
             this.zeroBtn.TabIndex = 26;
+            this.zeroBtn.Tag = "numberButtons";
             this.zeroBtn.Text = "0";
             this.zeroBtn.UseVisualStyleBackColor = false;
             // 
@@ -504,7 +545,7 @@
             // 
             // simpleTabControlPanel
             // 
-            this.simpleTabControlPanel.Controls.Add(this.label1);
+            this.simpleTabControlPanel.Controls.Add(this.x2PowerLabel);
             this.simpleTabControlPanel.Controls.Add(this.plusBtn);
             this.simpleTabControlPanel.Controls.Add(this.zeroBtn);
             this.simpleTabControlPanel.Controls.Add(this.dotBtn);
@@ -547,16 +588,16 @@
             this.simpleTabControlPanel.TabItem = this.simpleTabItem;
             this.simpleTabControlPanel.UseCustomStyle = true;
             // 
-            // label1
+            // x2PowerLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "2";
+            this.x2PowerLabel.AutoSize = true;
+            this.x2PowerLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.x2PowerLabel.ForeColor = System.Drawing.Color.White;
+            this.x2PowerLabel.Location = new System.Drawing.Point(63, 92);
+            this.x2PowerLabel.Name = "x2PowerLabel";
+            this.x2PowerLabel.Size = new System.Drawing.Size(13, 13);
+            this.x2PowerLabel.TabIndex = 28;
+            this.x2PowerLabel.Text = "2";
             // 
             // circlePnl
             // 
@@ -580,6 +621,34 @@
             // 
             // advancedTabControlPanel
             // 
+            this.advancedTabControlPanel.Controls.Add(this.button25);
+            this.advancedTabControlPanel.Controls.Add(this.button26);
+            this.advancedTabControlPanel.Controls.Add(this.button27);
+            this.advancedTabControlPanel.Controls.Add(this.button28);
+            this.advancedTabControlPanel.Controls.Add(this.advancedPlusBtn);
+            this.advancedTabControlPanel.Controls.Add(this.button23);
+            this.advancedTabControlPanel.Controls.Add(this.advancedZeroBtn);
+            this.advancedTabControlPanel.Controls.Add(this.button24);
+            this.advancedTabControlPanel.Controls.Add(this.advancedDotBtn);
+            this.advancedTabControlPanel.Controls.Add(this.button22);
+            this.advancedTabControlPanel.Controls.Add(this.advancedEquallBtn);
+            this.advancedTabControlPanel.Controls.Add(this.button21);
+            this.advancedTabControlPanel.Controls.Add(this.button5);
+            this.advancedTabControlPanel.Controls.Add(this.button20);
+            this.advancedTabControlPanel.Controls.Add(this.button6);
+            this.advancedTabControlPanel.Controls.Add(this.button19);
+            this.advancedTabControlPanel.Controls.Add(this.button7);
+            this.advancedTabControlPanel.Controls.Add(this.button18);
+            this.advancedTabControlPanel.Controls.Add(this.button8);
+            this.advancedTabControlPanel.Controls.Add(this.button17);
+            this.advancedTabControlPanel.Controls.Add(this.button9);
+            this.advancedTabControlPanel.Controls.Add(this.button16);
+            this.advancedTabControlPanel.Controls.Add(this.button10);
+            this.advancedTabControlPanel.Controls.Add(this.button15);
+            this.advancedTabControlPanel.Controls.Add(this.button11);
+            this.advancedTabControlPanel.Controls.Add(this.button14);
+            this.advancedTabControlPanel.Controls.Add(this.button12);
+            this.advancedTabControlPanel.Controls.Add(this.button13);
             this.advancedTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
             this.advancedTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.advancedTabControlPanel.Location = new System.Drawing.Point(0, 33);
@@ -670,6 +739,486 @@
             this.answerAreaLabel.Size = new System.Drawing.Size(404, 48);
             this.answerAreaLabel.TabIndex = 1;
             // 
+            // advancedPlusBtn
+            // 
+            this.advancedPlusBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedPlusBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedPlusBtn.FlatAppearance.BorderSize = 2;
+            this.advancedPlusBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedPlusBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedPlusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedPlusBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedPlusBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedPlusBtn.Location = new System.Drawing.Point(88, 367);
+            this.advancedPlusBtn.Name = "advancedPlusBtn";
+            this.advancedPlusBtn.Size = new System.Drawing.Size(87, 58);
+            this.advancedPlusBtn.TabIndex = 51;
+            this.advancedPlusBtn.Text = "+";
+            this.advancedPlusBtn.UseVisualStyleBackColor = false;
+            // 
+            // advancedZeroBtn
+            // 
+            this.advancedZeroBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedZeroBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedZeroBtn.FlatAppearance.BorderSize = 2;
+            this.advancedZeroBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedZeroBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedZeroBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedZeroBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedZeroBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedZeroBtn.Location = new System.Drawing.Point(175, 367);
+            this.advancedZeroBtn.Name = "advancedZeroBtn";
+            this.advancedZeroBtn.Size = new System.Drawing.Size(87, 58);
+            this.advancedZeroBtn.TabIndex = 50;
+            this.advancedZeroBtn.Text = "0";
+            this.advancedZeroBtn.UseVisualStyleBackColor = false;
+            // 
+            // advancedDotBtn
+            // 
+            this.advancedDotBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedDotBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedDotBtn.FlatAppearance.BorderSize = 2;
+            this.advancedDotBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedDotBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedDotBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedDotBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedDotBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedDotBtn.Location = new System.Drawing.Point(262, 367);
+            this.advancedDotBtn.Name = "advancedDotBtn";
+            this.advancedDotBtn.Size = new System.Drawing.Size(87, 58);
+            this.advancedDotBtn.TabIndex = 49;
+            this.advancedDotBtn.Text = ".";
+            this.advancedDotBtn.UseVisualStyleBackColor = false;
+            // 
+            // advancedEquallBtn
+            // 
+            this.advancedEquallBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.advancedEquallBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedEquallBtn.FlatAppearance.BorderSize = 2;
+            this.advancedEquallBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.advancedEquallBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.advancedEquallBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.advancedEquallBtn.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.advancedEquallBtn.ForeColor = System.Drawing.Color.White;
+            this.advancedEquallBtn.Location = new System.Drawing.Point(349, 367);
+            this.advancedEquallBtn.Name = "advancedEquallBtn";
+            this.advancedEquallBtn.Size = new System.Drawing.Size(87, 58);
+            this.advancedEquallBtn.TabIndex = 48;
+            this.advancedEquallBtn.Text = "=";
+            this.advancedEquallBtn.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button5.FlatAppearance.BorderSize = 2;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(88, 296);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(87, 58);
+            this.button5.TabIndex = 47;
+            this.button5.Text = "-";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button6.FlatAppearance.BorderSize = 2;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(175, 296);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(87, 58);
+            this.button6.TabIndex = 46;
+            this.button6.Text = "1";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button7.FlatAppearance.BorderSize = 2;
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(262, 296);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(87, 58);
+            this.button7.TabIndex = 45;
+            this.button7.Text = "2";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button8.FlatAppearance.BorderSize = 2;
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(349, 296);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(87, 58);
+            this.button8.TabIndex = 44;
+            this.button8.Text = "3";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button9.FlatAppearance.BorderSize = 2;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(88, 226);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(87, 58);
+            this.button9.TabIndex = 43;
+            this.button9.Text = "×";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button10.FlatAppearance.BorderSize = 2;
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(175, 226);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(87, 58);
+            this.button10.TabIndex = 42;
+            this.button10.Text = "4";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button11.FlatAppearance.BorderSize = 2;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(262, 226);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(87, 58);
+            this.button11.TabIndex = 41;
+            this.button11.Text = "5";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button12.FlatAppearance.BorderSize = 2;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(349, 226);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(87, 58);
+            this.button12.TabIndex = 40;
+            this.button12.Text = "6";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button13.FlatAppearance.BorderSize = 2;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(88, 154);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(87, 58);
+            this.button13.TabIndex = 39;
+            this.button13.Text = "÷";
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button14.FlatAppearance.BorderSize = 2;
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(175, 154);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(87, 58);
+            this.button14.TabIndex = 38;
+            this.button14.Text = "7";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button15.FlatAppearance.BorderSize = 2;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(262, 154);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(87, 58);
+            this.button15.TabIndex = 37;
+            this.button15.Text = "8";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button16.FlatAppearance.BorderSize = 2;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Location = new System.Drawing.Point(349, 154);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(87, 58);
+            this.button16.TabIndex = 36;
+            this.button16.Text = "9";
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button17.FlatAppearance.BorderSize = 2;
+            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Location = new System.Drawing.Point(14, 74);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(95, 67);
+            this.button17.TabIndex = 35;
+            this.button17.Text = "x";
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button18.FlatAppearance.BorderSize = 2;
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(119, 74);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(95, 67);
+            this.button18.TabIndex = 34;
+            this.button18.Text = "√x";
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button19.FlatAppearance.BorderSize = 2;
+            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button19.ForeColor = System.Drawing.Color.White;
+            this.button19.Location = new System.Drawing.Point(224, 74);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(95, 67);
+            this.button19.TabIndex = 33;
+            this.button19.Text = "log";
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button20.FlatAppearance.BorderSize = 2;
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Location = new System.Drawing.Point(329, 74);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(95, 67);
+            this.button20.TabIndex = 32;
+            this.button20.Text = "ln";
+            this.button20.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button21.FlatAppearance.BorderSize = 2;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button21.ForeColor = System.Drawing.Color.White;
+            this.button21.Location = new System.Drawing.Point(14, 4);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(95, 67);
+            this.button21.TabIndex = 31;
+            this.button21.Tag = "";
+            this.button21.Text = "( )";
+            this.button21.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button22.FlatAppearance.BorderSize = 2;
+            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button22.ForeColor = System.Drawing.Color.White;
+            this.button22.Location = new System.Drawing.Point(119, 4);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(95, 67);
+            this.button22.TabIndex = 30;
+            this.button22.Tag = "";
+            this.button22.Text = "C";
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button23.FlatAppearance.BorderSize = 2;
+            this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button23.ForeColor = System.Drawing.Color.White;
+            this.button23.Location = new System.Drawing.Point(224, 4);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(95, 67);
+            this.button23.TabIndex = 29;
+            this.button23.Tag = "";
+            this.button23.Text = "CE";
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button24.FlatAppearance.BorderSize = 2;
+            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button24.ForeColor = System.Drawing.Color.White;
+            this.button24.Location = new System.Drawing.Point(329, 4);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(95, 67);
+            this.button24.TabIndex = 28;
+            this.button24.Tag = "";
+            this.button24.Text = "⌫";
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button25.FlatAppearance.BorderSize = 2;
+            this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button25.ForeColor = System.Drawing.Color.White;
+            this.button25.Location = new System.Drawing.Point(1, 367);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(87, 58);
+            this.button25.TabIndex = 55;
+            this.button25.Text = "+";
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button26.FlatAppearance.BorderSize = 2;
+            this.button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button26.ForeColor = System.Drawing.Color.White;
+            this.button26.Location = new System.Drawing.Point(1, 296);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(87, 58);
+            this.button26.TabIndex = 54;
+            this.button26.Text = "-";
+            this.button26.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button27.FlatAppearance.BorderSize = 2;
+            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button27.ForeColor = System.Drawing.Color.White;
+            this.button27.Location = new System.Drawing.Point(1, 226);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(87, 58);
+            this.button27.TabIndex = 53;
+            this.button27.Text = "×";
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button28.FlatAppearance.BorderSize = 2;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(157)))));
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(200)))), ((int)(((byte)(157)))));
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Ravie", 11F, System.Drawing.FontStyle.Bold);
+            this.button28.ForeColor = System.Drawing.Color.White;
+            this.button28.Location = new System.Drawing.Point(1, 154);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(87, 58);
+            this.button28.TabIndex = 52;
+            this.button28.Text = "÷";
+            this.button28.UseVisualStyleBackColor = false;
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -695,6 +1244,7 @@
             this.tabControl.ResumeLayout(false);
             this.simpleTabControlPanel.ResumeLayout(false);
             this.simpleTabControlPanel.PerformLayout();
+            this.advancedTabControlPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -733,10 +1283,38 @@
         private System.Windows.Forms.Button zeroBtn;
         private System.Windows.Forms.Button dotBtn;
         private System.Windows.Forms.Button equallBtn;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label x2PowerLabel;
         private DevComponents.DotNetBar.LabelX previousAnswerLabel;
         private DevComponents.DotNetBar.LabelX answerAreaLabel;
         private System.Windows.Forms.Panel circlePnl;
+        private System.Windows.Forms.Button advancedPlusBtn;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button advancedZeroBtn;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button advancedDotBtn;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button advancedEquallBtn;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
     }
 }
 
