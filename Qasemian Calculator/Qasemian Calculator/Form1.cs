@@ -14,6 +14,7 @@ namespace Qasemian_Calculator
 {
     public partial class form : Form
     {
+        //Rounding buttons
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
@@ -25,6 +26,7 @@ namespace Qasemian_Calculator
                 int nHeightEllipse
             );
 
+        //inserting form drop shadow
         private const int CS_DropShadow = 0x00000001;
         protected override CreateParams CreateParams
         {
@@ -60,6 +62,8 @@ namespace Qasemian_Calculator
             nineBtn.BackColor = numbersColor;
 
             Region reg = Region.FromHrgn(CreateRoundRectRgn(0, 0, 95, 67, 30, 30));
+
+            //foreach (int i in simpleTabControlPanel.Controls.Contains.Tag)
             delBtn.Region = reg;
             CBtn.Region = reg;
             CEBtn.Region = reg;
