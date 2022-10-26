@@ -50,46 +50,18 @@ namespace Qasemian_Calculator
             advancedTabControlPanel.Style.BackColor1.Color = Color.DeepSkyBlue;
             
             Color numbersColor = Color.FromArgb(130 ,116, 152, 157);
-            zeroBtn.BackColor = numbersColor;
-            oneBtn.BackColor = numbersColor;
-            twoBtn.BackColor = numbersColor;
-            threeBtn.BackColor = numbersColor;
-            fourBtn.BackColor = numbersColor;
-            fiveBtn.BackColor = numbersColor;
-            sixBtn.BackColor = numbersColor;
-            sevenBtn.BackColor = numbersColor;
-            eightBtn.BackColor = numbersColor;
-            nineBtn.BackColor = numbersColor;
-
             Region reg = Region.FromHrgn(CreateRoundRectRgn(0, 0, 95, 67, 30, 30));
 
-            //foreach (int i in simpleTabControlPanel.Controls.Contains.Tag)
-            delBtn.Region = reg;
-            CBtn.Region = reg;
-            CEBtn.Region = reg;
-            parenthesisBtn.Region = reg;
-            lnBtn.Region = reg;
-            logBtn.Region = reg;
-            radicalBtn.Region = reg;
-            x2Btn.Region = reg;
-            nineBtn.Region = reg;
-            eightBtn.Region = reg;
-            sevenBtn.Region = reg;
-            divideBtn.Region = reg;
-            sixBtn.Region = reg;
-            fiveBtn.Region = reg;
-            fourBtn.Region = reg;
-            timesBtn.Region = reg;
-            threeBtn.Region = reg;
-            twoBtn.Region = reg;
-            oneBtn.Region = reg;
-            minusBtn.Region = reg;
-            equallBtn.Region = reg;
-            dotBtn.Region = reg;
-            zeroBtn.Region = reg;
-            plusBtn.Region = reg;
+            foreach (Control control in simpleTabControlPanel.Controls)
+            {
+                if (control is Button)
+                {
+                    control.Region = reg;
+                    if (control.Tag != null && control.Tag == "numberButtons")
+                        control.BackColor = numbersColor;
+                }
+            }
 
-            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
