@@ -106,6 +106,7 @@
             this.cotComboItem = new DevComponents.Editors.ComboItem();
             this.secComboItem = new DevComponents.Editors.ComboItem();
             this.cscComboItem = new DevComponents.Editors.ComboItem();
+            this.advancedCirclePnl = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
             this.advancedTabControlPanel.SuspendLayout();
@@ -592,6 +593,7 @@
             this.advancedTabControlPanel.Controls.Add(this.advanced7Btn);
             this.advancedTabControlPanel.Controls.Add(this.advanced6Btn);
             this.advancedTabControlPanel.Controls.Add(this.advancedDivisionBtn);
+            this.advancedTabControlPanel.Controls.Add(this.advancedCirclePnl);
             this.advancedTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
             this.advancedTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.advancedTabControlPanel.Location = new System.Drawing.Point(0, 33);
@@ -1362,6 +1364,15 @@
             // 
             this.cscComboItem.Text = "Csc";
             // 
+            // advancedCirclePnl
+            // 
+            this.advancedCirclePnl.BackColor = System.Drawing.Color.Transparent;
+            this.advancedCirclePnl.Location = new System.Drawing.Point(1, -1);
+            this.advancedCirclePnl.Name = "advancedCirclePnl";
+            this.advancedCirclePnl.Size = new System.Drawing.Size(109, 430);
+            this.advancedCirclePnl.TabIndex = 30;
+            this.advancedCirclePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.advancedCirclePnl_Paint);
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1472,6 +1483,7 @@
         private DevComponents.Editors.ComboItem cotComboItem;
         private DevComponents.Editors.ComboItem secComboItem;
         private DevComponents.Editors.ComboItem cscComboItem;
+        private System.Windows.Forms.Panel advancedCirclePnl;
     }
 }
 

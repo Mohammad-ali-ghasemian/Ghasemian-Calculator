@@ -38,6 +38,20 @@ namespace Qasemian_Calculator
             }
         }
 
+        //making left-side colorfull half circle
+        private void circlePnl_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics halfCircle = this.circlePnl.CreateGraphics();
+            SolidBrush SB = new SolidBrush(Color.MediumAquamarine);
+            halfCircle.FillEllipse(SB, -90, 0, 165, 430);
+        }
+        private void advancedCirclePnl_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics halfCircle = this.advancedCirclePnl.CreateGraphics();
+            SolidBrush SB = new SolidBrush(Color.MediumAquamarine);
+            halfCircle.FillEllipse(SB, -90, 0, 165, 430);
+        }
+
         public form()
         {
             InitializeComponent();
@@ -76,14 +90,6 @@ namespace Qasemian_Calculator
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             this.TopMost = alwaysTopChk.Checked;
-        }
-
-        //making left-side colorfull half circle
-        private void circlePnl_Paint(object sender, PaintEventArgs e)
-        {
-            Graphics halfCircle = this.circlePnl.CreateGraphics();
-            SolidBrush SB = new SolidBrush(Color.MediumAquamarine);
-            halfCircle.FillEllipse(SB, -90, 0, 165, 430);
         }
 
         private void labelsMouseLeave(object sender, EventArgs e)
@@ -148,5 +154,7 @@ namespace Qasemian_Calculator
 
             advancedTrigonometryCmoboBox.SelectedIndex = 0;
         }
+
+
     }
 }
