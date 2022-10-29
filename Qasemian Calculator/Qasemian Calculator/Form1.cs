@@ -37,6 +37,7 @@ namespace Qasemian_Calculator
                 return cp;
             }
         }
+
         public form()
         {
             InitializeComponent();
@@ -68,6 +69,8 @@ namespace Qasemian_Calculator
                 if (control.Tag != null && control.Tag == "numberButtons")
                     control.BackColor = numbersColor;
             }
+
+            advancedTrigonometryCmoboBox.SelectedIndex = 0;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -137,6 +140,13 @@ namespace Qasemian_Calculator
                     powerLbl.BackColor = color;
                     break;
             }
+        }
+
+        private void advancedTrigonometryCmoboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+            advancedTrigonometryCmoboBox.SelectedIndex = 0;
         }
     }
 }
