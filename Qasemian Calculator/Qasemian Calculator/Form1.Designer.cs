@@ -55,7 +55,19 @@
             this.dotBtn = new System.Windows.Forms.Button();
             this.equallBtn = new System.Windows.Forms.Button();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
+            this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
+            this.x2PowerLbl = new System.Windows.Forms.Label();
+            this.circlePnl = new System.Windows.Forms.Panel();
+            this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.advancedTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
+            this.advancedTrigonometryCmoboBox = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.TrigonometryComboItem = new DevComponents.Editors.ComboItem();
+            this.sinComboItem = new DevComponents.Editors.ComboItem();
+            this.cosComboItem = new DevComponents.Editors.ComboItem();
+            this.tanComboItem = new DevComponents.Editors.ComboItem();
+            this.cotComboItem = new DevComponents.Editors.ComboItem();
+            this.secComboItem = new DevComponents.Editors.ComboItem();
+            this.cscComboItem = new DevComponents.Editors.ComboItem();
             this.powerLbl = new System.Windows.Forms.Label();
             this.radicalYLbl = new System.Windows.Forms.Label();
             this.logYLbl = new System.Windows.Forms.Label();
@@ -89,28 +101,16 @@
             this.advanced7Btn = new System.Windows.Forms.Button();
             this.advanced6Btn = new System.Windows.Forms.Button();
             this.advancedDivisionBtn = new System.Windows.Forms.Button();
+            this.advancedCirclePnl = new System.Windows.Forms.Panel();
             this.advancedTabItem = new DevComponents.DotNetBar.TabItem(this.components);
-            this.simpleTabControlPanel = new DevComponents.DotNetBar.TabControlPanel();
-            this.x2PowerLbl = new System.Windows.Forms.Label();
-            this.circlePnl = new System.Windows.Forms.Panel();
-            this.simpleTabItem = new DevComponents.DotNetBar.TabItem(this.components);
             this.alwaysTopChk = new System.Windows.Forms.CheckBox();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
             this.previousAnswerLabel = new DevComponents.DotNetBar.LabelX();
             this.answerAreaLabel = new DevComponents.DotNetBar.LabelX();
-            this.advancedTrigonometryCmoboBox = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.TrigonometryComboItem = new DevComponents.Editors.ComboItem();
-            this.sinComboItem = new DevComponents.Editors.ComboItem();
-            this.cosComboItem = new DevComponents.Editors.ComboItem();
-            this.tanComboItem = new DevComponents.Editors.ComboItem();
-            this.cotComboItem = new DevComponents.Editors.ComboItem();
-            this.secComboItem = new DevComponents.Editors.ComboItem();
-            this.cscComboItem = new DevComponents.Editors.ComboItem();
-            this.advancedCirclePnl = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
-            this.advancedTabControlPanel.SuspendLayout();
             this.simpleTabControlPanel.SuspendLayout();
+            this.advancedTabControlPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // delBtn
@@ -130,6 +130,7 @@
             this.delBtn.Tag = "";
             this.delBtn.Text = "⌫";
             this.delBtn.UseVisualStyleBackColor = false;
+            this.delBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // CEBtn
             // 
@@ -148,6 +149,7 @@
             this.CEBtn.Tag = "";
             this.CEBtn.Text = "CE";
             this.CEBtn.UseVisualStyleBackColor = false;
+            this.CEBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // CBtn
             // 
@@ -166,6 +168,7 @@
             this.CBtn.Tag = "";
             this.CBtn.Text = "C";
             this.CBtn.UseVisualStyleBackColor = false;
+            this.CBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // parenthesisBtn
             // 
@@ -184,6 +187,7 @@
             this.parenthesisBtn.Tag = "";
             this.parenthesisBtn.Text = "( )";
             this.parenthesisBtn.UseVisualStyleBackColor = false;
+            this.parenthesisBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // x2Btn
             // 
@@ -201,6 +205,7 @@
             this.x2Btn.TabIndex = 11;
             this.x2Btn.Text = "x";
             this.x2Btn.UseVisualStyleBackColor = false;
+            this.x2Btn.Click += new System.EventHandler(this.simpleButtons_clicked);
             this.x2Btn.MouseLeave += new System.EventHandler(this.labelsMouseLeave);
             this.x2Btn.MouseHover += new System.EventHandler(this.labelsMouseHover);
             // 
@@ -220,6 +225,7 @@
             this.radicalBtn.TabIndex = 10;
             this.radicalBtn.Text = "√x";
             this.radicalBtn.UseVisualStyleBackColor = false;
+            this.radicalBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // logBtn
             // 
@@ -237,6 +243,7 @@
             this.logBtn.TabIndex = 9;
             this.logBtn.Text = "log";
             this.logBtn.UseVisualStyleBackColor = false;
+            this.logBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // lnBtn
             // 
@@ -254,6 +261,7 @@
             this.lnBtn.TabIndex = 8;
             this.lnBtn.Text = "ln";
             this.lnBtn.UseVisualStyleBackColor = false;
+            this.lnBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // divideBtn
             // 
@@ -271,6 +279,7 @@
             this.divideBtn.TabIndex = 15;
             this.divideBtn.Text = "÷";
             this.divideBtn.UseVisualStyleBackColor = false;
+            this.divideBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // sevenBtn
             // 
@@ -289,6 +298,7 @@
             this.sevenBtn.Tag = "numberButtons";
             this.sevenBtn.Text = "7";
             this.sevenBtn.UseVisualStyleBackColor = false;
+            this.sevenBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // eightBtn
             // 
@@ -307,6 +317,7 @@
             this.eightBtn.Tag = "numberButtons";
             this.eightBtn.Text = "8";
             this.eightBtn.UseVisualStyleBackColor = false;
+            this.eightBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // nineBtn
             // 
@@ -325,6 +336,7 @@
             this.nineBtn.Tag = "numberButtons";
             this.nineBtn.Text = "9";
             this.nineBtn.UseVisualStyleBackColor = false;
+            this.nineBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // timesBtn
             // 
@@ -342,6 +354,7 @@
             this.timesBtn.TabIndex = 19;
             this.timesBtn.Text = "×";
             this.timesBtn.UseVisualStyleBackColor = false;
+            this.timesBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // fourBtn
             // 
@@ -360,6 +373,7 @@
             this.fourBtn.Tag = "numberButtons";
             this.fourBtn.Text = "4";
             this.fourBtn.UseVisualStyleBackColor = false;
+            this.fourBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // fiveBtn
             // 
@@ -378,6 +392,7 @@
             this.fiveBtn.Tag = "numberButtons";
             this.fiveBtn.Text = "5";
             this.fiveBtn.UseVisualStyleBackColor = false;
+            this.fiveBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // sixBtn
             // 
@@ -396,6 +411,7 @@
             this.sixBtn.Tag = "numberButtons";
             this.sixBtn.Text = "6";
             this.sixBtn.UseVisualStyleBackColor = false;
+            this.sixBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // minusBtn
             // 
@@ -413,6 +429,7 @@
             this.minusBtn.TabIndex = 23;
             this.minusBtn.Text = "-";
             this.minusBtn.UseVisualStyleBackColor = false;
+            this.minusBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // oneBtn
             // 
@@ -431,6 +448,7 @@
             this.oneBtn.Tag = "numberButtons";
             this.oneBtn.Text = "1";
             this.oneBtn.UseVisualStyleBackColor = false;
+            this.oneBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // twoBtn
             // 
@@ -449,6 +467,7 @@
             this.twoBtn.Tag = "numberButtons";
             this.twoBtn.Text = "2";
             this.twoBtn.UseVisualStyleBackColor = false;
+            this.twoBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // threeBtn
             // 
@@ -467,6 +486,7 @@
             this.threeBtn.Tag = "numberButtons";
             this.threeBtn.Text = "3";
             this.threeBtn.UseVisualStyleBackColor = false;
+            this.threeBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // plusBtn
             // 
@@ -484,6 +504,7 @@
             this.plusBtn.TabIndex = 27;
             this.plusBtn.Text = "+";
             this.plusBtn.UseVisualStyleBackColor = false;
+            this.plusBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // zeroBtn
             // 
@@ -502,6 +523,7 @@
             this.zeroBtn.Tag = "numberButtons";
             this.zeroBtn.Text = "0";
             this.zeroBtn.UseVisualStyleBackColor = false;
+            this.zeroBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // dotBtn
             // 
@@ -519,6 +541,7 @@
             this.dotBtn.TabIndex = 25;
             this.dotBtn.Text = ".";
             this.dotBtn.UseVisualStyleBackColor = false;
+            this.dotBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // equallBtn
             // 
@@ -536,13 +559,14 @@
             this.equallBtn.TabIndex = 24;
             this.equallBtn.Text = "=";
             this.equallBtn.UseVisualStyleBackColor = false;
+            this.equallBtn.Click += new System.EventHandler(this.simpleButtons_clicked);
             // 
             // tabControl
             // 
             this.tabControl.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Controls.Add(this.simpleTabControlPanel);
+            this.tabControl.Controls.Add(this.advancedTabControlPanel);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl.FixedTabSize = new System.Drawing.Size(100, 30);
             this.tabControl.Location = new System.Drawing.Point(0, 98);
@@ -556,6 +580,84 @@
             this.tabControl.Tabs.Add(this.simpleTabItem);
             this.tabControl.Tabs.Add(this.advancedTabItem);
             this.tabControl.Text = "tabControl";
+            // 
+            // simpleTabControlPanel
+            // 
+            this.simpleTabControlPanel.Controls.Add(this.x2PowerLbl);
+            this.simpleTabControlPanel.Controls.Add(this.plusBtn);
+            this.simpleTabControlPanel.Controls.Add(this.zeroBtn);
+            this.simpleTabControlPanel.Controls.Add(this.dotBtn);
+            this.simpleTabControlPanel.Controls.Add(this.equallBtn);
+            this.simpleTabControlPanel.Controls.Add(this.minusBtn);
+            this.simpleTabControlPanel.Controls.Add(this.oneBtn);
+            this.simpleTabControlPanel.Controls.Add(this.twoBtn);
+            this.simpleTabControlPanel.Controls.Add(this.threeBtn);
+            this.simpleTabControlPanel.Controls.Add(this.timesBtn);
+            this.simpleTabControlPanel.Controls.Add(this.fourBtn);
+            this.simpleTabControlPanel.Controls.Add(this.fiveBtn);
+            this.simpleTabControlPanel.Controls.Add(this.sixBtn);
+            this.simpleTabControlPanel.Controls.Add(this.divideBtn);
+            this.simpleTabControlPanel.Controls.Add(this.sevenBtn);
+            this.simpleTabControlPanel.Controls.Add(this.eightBtn);
+            this.simpleTabControlPanel.Controls.Add(this.nineBtn);
+            this.simpleTabControlPanel.Controls.Add(this.x2Btn);
+            this.simpleTabControlPanel.Controls.Add(this.radicalBtn);
+            this.simpleTabControlPanel.Controls.Add(this.logBtn);
+            this.simpleTabControlPanel.Controls.Add(this.lnBtn);
+            this.simpleTabControlPanel.Controls.Add(this.parenthesisBtn);
+            this.simpleTabControlPanel.Controls.Add(this.CBtn);
+            this.simpleTabControlPanel.Controls.Add(this.CEBtn);
+            this.simpleTabControlPanel.Controls.Add(this.delBtn);
+            this.simpleTabControlPanel.Controls.Add(this.circlePnl);
+            this.simpleTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
+            this.simpleTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.simpleTabControlPanel.Location = new System.Drawing.Point(0, 33);
+            this.simpleTabControlPanel.Name = "simpleTabControlPanel";
+            this.simpleTabControlPanel.Padding = new System.Windows.Forms.Padding(1);
+            this.simpleTabControlPanel.Size = new System.Drawing.Size(434, 430);
+            this.simpleTabControlPanel.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
+            this.simpleTabControlPanel.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
+            this.simpleTabControlPanel.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.simpleTabControlPanel.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.simpleTabControlPanel.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.simpleTabControlPanel.Style.GradientAngle = 90;
+            this.simpleTabControlPanel.TabIndex = 1;
+            this.simpleTabControlPanel.TabItem = this.simpleTabItem;
+            this.simpleTabControlPanel.UseCustomStyle = true;
+            // 
+            // x2PowerLbl
+            // 
+            this.x2PowerLbl.AutoSize = true;
+            this.x2PowerLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
+            this.x2PowerLbl.ForeColor = System.Drawing.Color.White;
+            this.x2PowerLbl.Location = new System.Drawing.Point(63, 92);
+            this.x2PowerLbl.Name = "x2PowerLbl";
+            this.x2PowerLbl.Size = new System.Drawing.Size(13, 13);
+            this.x2PowerLbl.TabIndex = 28;
+            this.x2PowerLbl.Text = "2";
+            this.x2PowerLbl.Click += new System.EventHandler(this.simpleButtons_clicked);
+            // 
+            // circlePnl
+            // 
+            this.circlePnl.BackColor = System.Drawing.Color.Transparent;
+            this.circlePnl.Location = new System.Drawing.Point(1, 0);
+            this.circlePnl.Name = "circlePnl";
+            this.circlePnl.Size = new System.Drawing.Size(109, 430);
+            this.circlePnl.TabIndex = 29;
+            this.circlePnl.Click += new System.EventHandler(this.simpleButtons_clicked);
+            this.circlePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.circlePnl_Paint);
+            // 
+            // simpleTabItem
+            // 
+            this.simpleTabItem.AttachedControl = this.simpleTabControlPanel;
+            this.simpleTabItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.simpleTabItem.BackColor2 = System.Drawing.Color.LightSlateGray;
+            this.simpleTabItem.BorderColor = System.Drawing.Color.Navy;
+            this.simpleTabItem.Icon = ((System.Drawing.Icon)(resources.GetObject("simpleTabItem.Icon")));
+            this.simpleTabItem.Name = "simpleTabItem";
+            this.simpleTabItem.Text = "simple";
+            this.simpleTabItem.TextColor = System.Drawing.Color.Black;
             // 
             // advancedTabControlPanel
             // 
@@ -609,6 +711,57 @@
             this.advancedTabControlPanel.Style.GradientAngle = -90;
             this.advancedTabControlPanel.TabIndex = 5;
             this.advancedTabControlPanel.TabItem = this.advancedTabItem;
+            // 
+            // advancedTrigonometryCmoboBox
+            // 
+            this.advancedTrigonometryCmoboBox.DisplayMember = "Text";
+            this.advancedTrigonometryCmoboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.advancedTrigonometryCmoboBox.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.advancedTrigonometryCmoboBox.FormattingEnabled = true;
+            this.advancedTrigonometryCmoboBox.ItemHeight = 20;
+            this.advancedTrigonometryCmoboBox.Items.AddRange(new object[] {
+            this.TrigonometryComboItem,
+            this.sinComboItem,
+            this.cosComboItem,
+            this.tanComboItem,
+            this.cotComboItem,
+            this.secComboItem,
+            this.cscComboItem});
+            this.advancedTrigonometryCmoboBox.Location = new System.Drawing.Point(6, 99);
+            this.advancedTrigonometryCmoboBox.Name = "advancedTrigonometryCmoboBox";
+            this.advancedTrigonometryCmoboBox.Size = new System.Drawing.Size(132, 28);
+            this.advancedTrigonometryCmoboBox.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.advancedTrigonometryCmoboBox.TabIndex = 67;
+            this.advancedTrigonometryCmoboBox.SelectedIndexChanged += new System.EventHandler(this.advancedTrigonometryCmoboBox_SelectedIndexChanged);
+            // 
+            // TrigonometryComboItem
+            // 
+            this.TrigonometryComboItem.Text = "Trigonometry";
+            this.TrigonometryComboItem.TextAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // sinComboItem
+            // 
+            this.sinComboItem.Text = "Sin";
+            // 
+            // cosComboItem
+            // 
+            this.cosComboItem.Text = "Cos";
+            // 
+            // tanComboItem
+            // 
+            this.tanComboItem.Text = "Tan";
+            // 
+            // cotComboItem
+            // 
+            this.cotComboItem.Text = "Cot";
+            // 
+            // secComboItem
+            // 
+            this.secComboItem.Text = "Sec";
+            // 
+            // cscComboItem
+            // 
+            this.cscComboItem.Text = "Csc";
             // 
             // powerLbl
             // 
@@ -1163,6 +1316,15 @@
             this.advancedDivisionBtn.Text = "÷";
             this.advancedDivisionBtn.UseVisualStyleBackColor = false;
             // 
+            // advancedCirclePnl
+            // 
+            this.advancedCirclePnl.BackColor = System.Drawing.Color.Transparent;
+            this.advancedCirclePnl.Location = new System.Drawing.Point(1, -1);
+            this.advancedCirclePnl.Name = "advancedCirclePnl";
+            this.advancedCirclePnl.Size = new System.Drawing.Size(109, 430);
+            this.advancedCirclePnl.TabIndex = 30;
+            this.advancedCirclePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.advancedCirclePnl_Paint);
+            // 
             // advancedTabItem
             // 
             this.advancedTabItem.AttachedControl = this.advancedTabControlPanel;
@@ -1173,82 +1335,6 @@
             this.advancedTabItem.Name = "advancedTabItem";
             this.advancedTabItem.Text = "advanced";
             this.advancedTabItem.TextColor = System.Drawing.Color.Black;
-            // 
-            // simpleTabControlPanel
-            // 
-            this.simpleTabControlPanel.Controls.Add(this.x2PowerLbl);
-            this.simpleTabControlPanel.Controls.Add(this.plusBtn);
-            this.simpleTabControlPanel.Controls.Add(this.zeroBtn);
-            this.simpleTabControlPanel.Controls.Add(this.dotBtn);
-            this.simpleTabControlPanel.Controls.Add(this.equallBtn);
-            this.simpleTabControlPanel.Controls.Add(this.minusBtn);
-            this.simpleTabControlPanel.Controls.Add(this.oneBtn);
-            this.simpleTabControlPanel.Controls.Add(this.twoBtn);
-            this.simpleTabControlPanel.Controls.Add(this.threeBtn);
-            this.simpleTabControlPanel.Controls.Add(this.timesBtn);
-            this.simpleTabControlPanel.Controls.Add(this.fourBtn);
-            this.simpleTabControlPanel.Controls.Add(this.fiveBtn);
-            this.simpleTabControlPanel.Controls.Add(this.sixBtn);
-            this.simpleTabControlPanel.Controls.Add(this.divideBtn);
-            this.simpleTabControlPanel.Controls.Add(this.sevenBtn);
-            this.simpleTabControlPanel.Controls.Add(this.eightBtn);
-            this.simpleTabControlPanel.Controls.Add(this.nineBtn);
-            this.simpleTabControlPanel.Controls.Add(this.x2Btn);
-            this.simpleTabControlPanel.Controls.Add(this.radicalBtn);
-            this.simpleTabControlPanel.Controls.Add(this.logBtn);
-            this.simpleTabControlPanel.Controls.Add(this.lnBtn);
-            this.simpleTabControlPanel.Controls.Add(this.parenthesisBtn);
-            this.simpleTabControlPanel.Controls.Add(this.CBtn);
-            this.simpleTabControlPanel.Controls.Add(this.CEBtn);
-            this.simpleTabControlPanel.Controls.Add(this.delBtn);
-            this.simpleTabControlPanel.Controls.Add(this.circlePnl);
-            this.simpleTabControlPanel.DisabledBackColor = System.Drawing.Color.Empty;
-            this.simpleTabControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleTabControlPanel.Location = new System.Drawing.Point(0, 33);
-            this.simpleTabControlPanel.Name = "simpleTabControlPanel";
-            this.simpleTabControlPanel.Padding = new System.Windows.Forms.Padding(1);
-            this.simpleTabControlPanel.Size = new System.Drawing.Size(434, 430);
-            this.simpleTabControlPanel.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.simpleTabControlPanel.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.simpleTabControlPanel.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.simpleTabControlPanel.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.simpleTabControlPanel.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.simpleTabControlPanel.Style.GradientAngle = 90;
-            this.simpleTabControlPanel.TabIndex = 1;
-            this.simpleTabControlPanel.TabItem = this.simpleTabItem;
-            this.simpleTabControlPanel.UseCustomStyle = true;
-            // 
-            // x2PowerLbl
-            // 
-            this.x2PowerLbl.AutoSize = true;
-            this.x2PowerLbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(152)))), ((int)(((byte)(157)))));
-            this.x2PowerLbl.ForeColor = System.Drawing.Color.White;
-            this.x2PowerLbl.Location = new System.Drawing.Point(63, 92);
-            this.x2PowerLbl.Name = "x2PowerLbl";
-            this.x2PowerLbl.Size = new System.Drawing.Size(13, 13);
-            this.x2PowerLbl.TabIndex = 28;
-            this.x2PowerLbl.Text = "2";
-            // 
-            // circlePnl
-            // 
-            this.circlePnl.BackColor = System.Drawing.Color.Transparent;
-            this.circlePnl.Location = new System.Drawing.Point(1, 0);
-            this.circlePnl.Name = "circlePnl";
-            this.circlePnl.Size = new System.Drawing.Size(109, 430);
-            this.circlePnl.TabIndex = 29;
-            this.circlePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.circlePnl_Paint);
-            // 
-            // simpleTabItem
-            // 
-            this.simpleTabItem.AttachedControl = this.simpleTabControlPanel;
-            this.simpleTabItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.simpleTabItem.BackColor2 = System.Drawing.Color.LightSlateGray;
-            this.simpleTabItem.BorderColor = System.Drawing.Color.Navy;
-            this.simpleTabItem.Icon = ((System.Drawing.Icon)(resources.GetObject("simpleTabItem.Icon")));
-            this.simpleTabItem.Name = "simpleTabItem";
-            this.simpleTabItem.Text = "simple";
-            this.simpleTabItem.TextColor = System.Drawing.Color.Black;
             // 
             // alwaysTopChk
             // 
@@ -1312,66 +1398,7 @@
             this.answerAreaLabel.SingleLineColor = System.Drawing.Color.Black;
             this.answerAreaLabel.Size = new System.Drawing.Size(404, 48);
             this.answerAreaLabel.TabIndex = 1;
-            // 
-            // advancedTrigonometryCmoboBox
-            // 
-            this.advancedTrigonometryCmoboBox.DisplayMember = "Text";
-            this.advancedTrigonometryCmoboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.advancedTrigonometryCmoboBox.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.advancedTrigonometryCmoboBox.FormattingEnabled = true;
-            this.advancedTrigonometryCmoboBox.ItemHeight = 20;
-            this.advancedTrigonometryCmoboBox.Items.AddRange(new object[] {
-            this.TrigonometryComboItem,
-            this.sinComboItem,
-            this.cosComboItem,
-            this.tanComboItem,
-            this.cotComboItem,
-            this.secComboItem,
-            this.cscComboItem});
-            this.advancedTrigonometryCmoboBox.Location = new System.Drawing.Point(6, 99);
-            this.advancedTrigonometryCmoboBox.Name = "advancedTrigonometryCmoboBox";
-            this.advancedTrigonometryCmoboBox.Size = new System.Drawing.Size(132, 28);
-            this.advancedTrigonometryCmoboBox.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.advancedTrigonometryCmoboBox.TabIndex = 67;
-            this.advancedTrigonometryCmoboBox.SelectedIndexChanged += new System.EventHandler(this.advancedTrigonometryCmoboBox_SelectedIndexChanged);
-            // 
-            // TrigonometryComboItem
-            // 
-            this.TrigonometryComboItem.Text = "Trigonometry";
-            this.TrigonometryComboItem.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // sinComboItem
-            // 
-            this.sinComboItem.Text = "Sin";
-            // 
-            // cosComboItem
-            // 
-            this.cosComboItem.Text = "Cos";
-            // 
-            // tanComboItem
-            // 
-            this.tanComboItem.Text = "Tan";
-            // 
-            // cotComboItem
-            // 
-            this.cotComboItem.Text = "Cot";
-            // 
-            // secComboItem
-            // 
-            this.secComboItem.Text = "Sec";
-            // 
-            // cscComboItem
-            // 
-            this.cscComboItem.Text = "Csc";
-            // 
-            // advancedCirclePnl
-            // 
-            this.advancedCirclePnl.BackColor = System.Drawing.Color.Transparent;
-            this.advancedCirclePnl.Location = new System.Drawing.Point(1, -1);
-            this.advancedCirclePnl.Name = "advancedCirclePnl";
-            this.advancedCirclePnl.Size = new System.Drawing.Size(109, 430);
-            this.advancedCirclePnl.TabIndex = 30;
-            this.advancedCirclePnl.Paint += new System.Windows.Forms.PaintEventHandler(this.advancedCirclePnl_Paint);
+            this.answerAreaLabel.Text = "56984";
             // 
             // form
             // 
@@ -1396,10 +1423,10 @@
             this.Load += new System.EventHandler(this.form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).EndInit();
             this.tabControl.ResumeLayout(false);
-            this.advancedTabControlPanel.ResumeLayout(false);
-            this.advancedTabControlPanel.PerformLayout();
             this.simpleTabControlPanel.ResumeLayout(false);
             this.simpleTabControlPanel.PerformLayout();
+            this.advancedTabControlPanel.ResumeLayout(false);
+            this.advancedTabControlPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

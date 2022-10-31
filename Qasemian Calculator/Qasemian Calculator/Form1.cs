@@ -155,6 +155,20 @@ namespace Qasemian_Calculator
             advancedTrigonometryCmoboBox.SelectedIndex = 0;
         }
 
-
+        private void simpleButtons_clicked(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            switch (button.Name)
+            {
+                case "delBtn":
+                    if (answerAreaLabel.Text != "0")
+                    {
+                        answerAreaLabel.Text = answerAreaLabel.Text.Substring(0, answerAreaLabel.Text.Length - 1);
+                        if (answerAreaLabel.Text == "")
+                            answerAreaLabel.Text = "0";
+                    }
+                    break;
+            }
+        }
     }
 }
